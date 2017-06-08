@@ -1,0 +1,624 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sbc/turismo#"
+     xml:base="http://www.semanticweb.org/sbc/turismo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sbc/turismo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://idi.fundaciontic.org/cruzar/turismo#hasCafeteria -->
+
+    <owl:ObjectProperty rdf:about="http://idi.fundaciontic.org/cruzar/turismo#hasCafeteria">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:range rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Cafeteria"/>
+        <rdfs:comment>This object propertie relates the type of commercial resource with a cafeteria (type of commercial resource)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/SocialMediaPosting#about -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/SocialMediaPosting#about">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://schema.org/UserTweets"/>
+        <rdfs:range rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:range rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:range rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Hotelero"/>
+        <rdfs:comment>This object propertie indicates what topics tourists are posting on twitter (Hotel, commercial or tourist resort)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/SocialMediaPosting#publication -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/SocialMediaPosting#publication">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://linkedgeodata.org/ontology/Tourist"/>
+        <rdfs:range rdf:resource="http://schema.org/UserTweets"/>
+        <rdfs:comment>This object propertie indicates what topics tourists are posting on twitter (hotels, food, entertaiment, touriscplaces)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/socialMediaPosting#description -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/socialMediaPosting#description">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://schema.org/UserTweets"/>
+        <rdfs:range rdf:resource="http://www.disit.org/km4city/schema#Event"/>
+        <rdfs:comment>This object propertie represents the description of an event posted on twitter</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#exists -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#exists">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:domain rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:domain rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Hotelero"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Canton"/>
+        <rdfs:comment>this object property relates the types of resources that exist in a canton</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasBar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasBar">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:range rdf:resource="http://www.disit.org/km4city/schema#Bar"/>
+        <rdfs:comment>This object propertie relates the type of commercial resource with a bar (type of commercial resource)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasCanton -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasCanton">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Province"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Canton"/>
+        <rdfs:comment>this object propertie represents the relationship between a province and a canton</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasDiscotheque -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasDiscotheque">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:range rdf:resource="http://www.disit.org/km4city/schema#Discotheque"/>
+        <rdfs:comment>This object propertie relates the type of commercial resource with a discotheque (type of commercial resource)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasEvent">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:range rdf:resource="http://www.disit.org/km4city/schema#Event"/>
+        <rdfs:comment>This object propertie represents that an event is an organization subclass</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasHistoricalBuilding -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasHistoricalBuilding">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:range rdf:resource="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-historico"/>
+        <rdfs:comment>This object propertie relates the class of tourist resort with a historical building (type of tourist resort)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasHostal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasHostal">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Hotelero"/>
+        <rdfs:range rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Hostal"/>
+        <rdfs:comment>This object propertie represents the relationship between hotel resources with a hostal (type of hotel resort)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasHotel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasHotel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Hotelero"/>
+        <rdfs:range rdf:resource="http://www.disit.org/km4city/schema#Hotel"/>
+        <rdfs:comment>This object propertie represents the relationship between hotel resources with a hotel (type of hotel resort)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasMuseum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasMuseum">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:range rdf:resource="http://idi.fundacionctic.org/cruzar/turismo.html#Museo"/>
+        <rdfs:comment>This object propertie relates the class of tourist resort with a museum (type of tourist resort)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasNaturalEnviroment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasNaturalEnviroment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:range rdf:resource="http://idi.fundacionctic.org/cruzar/turismo.html#Entorno-natural"/>
+        <rdfs:comment>This object propertie relates the class of tourist resort with a natural enviroment (type of tourist resort)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasReligiousBuilding -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasReligiousBuilding">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:range rdf:resource="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-religioso"/>
+        <rdfs:comment>This object propertie relates the class of tourist resort with a religious building (type of tourist resort)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#hasRestaurant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#hasRestaurant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:range rdf:resource="http://www.disit.org/km4city/schema#Restaurant"/>
+        <rdfs:comment>This object propertie relates the type of commercial resource with a restaurant (type of commercial resource)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sbc/turismo#isVisitedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbc/turismo#isVisitedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Canton"/>
+        <rdfs:range rdf:resource="http://linkedgeodata.org/ontology/Tourist"/>
+        <rdfs:comment>This object propertie represents the relationship between a canton and the tourists who visit it</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subclassOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subclassOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://linkedgeodata.org/ontology/Tourist"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:comment>this object propertie represents the subclass that exists between person and tourist</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology#location -->
+
+    <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology#location">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-historico"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-religioso"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Museo"/>
+                    <rdf:Description rdf:about="http://idi.fundaciontic.org/cruzar/turismo#Cafeteria"/>
+                    <rdf:Description rdf:about="http://idi.fundaciontic.org/cruzar/turismo#Hostal"/>
+                    <rdf:Description rdf:about="http://www.disit.org/km4city/schema#Bar"/>
+                    <rdf:Description rdf:about="http://www.disit.org/km4city/schema#Discotheque"/>
+                    <rdf:Description rdf:about="http://www.disit.org/km4city/schema#Hotel"/>
+                    <rdf:Description rdf:about="http://www.disit.org/km4city/schema#Restaurant"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This data propertie represents the position of a place</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/Event#description -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/Event#description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.disit.org/km4city/schema#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This data propertie is a description of an event</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/Event#location -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/Event#location">
+        <rdfs:domain rdf:resource="http://www.disit.org/km4city/schema#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This data propertie is the location of an event</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/Event#startdate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/Event#startdate">
+        <rdfs:domain rdf:resource="http://www.disit.org/km4city/schema#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>This data propertie is the start date of an event</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/SocialMediaPosting#datepublished -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/SocialMediaPosting#datepublished">
+        <rdfs:domain rdf:resource="http://schema.org/UserTweets"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>This data propertie is the date when the tweet was published</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/SocialMediaPosting#description -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/SocialMediaPosting#description">
+        <rdfs:domain rdf:resource="http://schema.org/UserTweets"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This data propertie is the description or content of the event tweet</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/SocialMediaPosting#keywords -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/SocialMediaPosting#keywords">
+        <rdfs:domain rdf:resource="http://schema.org/UserTweets"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This data propertie are the keywords or hashtags that exist in a tweet</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-historico"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-religioso"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Entorno-natural"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Museo"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This data propertie represents the coordinates of a place, specifically latitude</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-historico"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-religioso"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Entorno-natural"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Museo"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This data propertie represents the coordinates of a place, specifically length</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1#name -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1#name">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://dbpedia.org/ontology/Canton"/>
+                    <rdf:Description rdf:about="http://dbpedia.org/ontology/Province"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-historico"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-religioso"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Entorno-natural"/>
+                    <rdf:Description rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Museo"/>
+                    <rdf:Description rdf:about="http://idi.fundaciontic.org/cruzar/turismo#Cafeteria"/>
+                    <rdf:Description rdf:about="http://idi.fundaciontic.org/cruzar/turismo#Hostal"/>
+                    <rdf:Description rdf:about="http://www.disit.org/km4city/schema#Bar"/>
+                    <rdf:Description rdf:about="http://www.disit.org/km4city/schema#Discotheque"/>
+                    <rdf:Description rdf:about="http://www.disit.org/km4city/schema#Hotel"/>
+                    <rdf:Description rdf:about="http://www.disit.org/km4city/schema#Restaurant"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This data propertie representes the pace names</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/Canton -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Canton">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Province"/>
+        <rdfs:comment>This subclass is a smaller division that is contained by a Province</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Province -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Province">
+        <rdfs:comment>This class represents a part of a country</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico -->
+
+    <owl:Class rdf:about="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:comment>This class refers to places that a tourist could visit in their trip.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-historico -->
+
+    <owl:Class rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-historico">
+        <rdfs:subClassOf rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:comment>Historical building refers to a nation&apos;s historic monuments, buildings, which are inherited from one&apos;s ancestors. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-religioso -->
+
+    <owl:Class rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Edificio-religioso">
+        <rdfs:subClassOf rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:comment>This subclass includes church, cathedral, temple, abbey etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://idi.fundacionctic.org/cruzar/turismo.html#Entorno-natural -->
+
+    <owl:Class rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Entorno-natural">
+        <rdfs:subClassOf rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:comment>Natural enviroment refers to a nation&apos;s fauna and flora, natural resources, and landscape, including natural park, reserve, walk, national park etc</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://idi.fundacionctic.org/cruzar/turismo.html#Museo -->
+
+    <owl:Class rdf:about="http://idi.fundacionctic.org/cruzar/turismo.html#Museo">
+        <rdfs:subClassOf rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+        <rdfs:comment>This subclass refers  just to the buildings that keep ancient and historical things.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://idi.fundaciontic.org/cruzar/turismo#Cafeteria -->
+
+    <owl:Class rdf:about="http://idi.fundaciontic.org/cruzar/turismo#Cafeteria">
+        <rdfs:subClassOf rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:comment>This subclass refers to a place where people could find desserts, coffee, hot drinks,etc and eat there.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://idi.fundaciontic.org/cruzar/turismo#Hostal -->
+
+    <owl:Class rdf:about="http://idi.fundaciontic.org/cruzar/turismo#Hostal">
+        <rdfs:subClassOf rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Hotelero"/>
+        <rdfs:comment>A hostel provides accommodation where guests can rent a bed, sometimes a bunk bed, in a dormitory and share a common bathroom, kitchen, and lounge. Rooms can be mixed or single-sex, although private rooms are increasingly common in all types of hostels.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial -->
+
+    <owl:Class rdf:about="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:comment>This class describe the different types of comercial resources.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://idi.fundaciontic.org/cruzar/turismo#Recurso-Hotelero -->
+
+    <owl:Class rdf:about="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Hotelero">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:comment>This class refers to the diffetent type of accommodation in a city</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedgeodata.org/ontology/Tourist -->
+
+    <owl:Class rdf:about="http://linkedgeodata.org/ontology/Tourist">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:comment>This is a subclass of Person that represent a kind of it. Tourist is a person that visit any place, also is considered tourist a person who is resident in a place and make tourism with publications of it.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/SocialMediaPosting -->
+
+    <owl:Class rdf:about="http://schema.org/SocialMediaPosting">
+        <rdfs:comment>This class represents a post to a social media platform, including blog posts, tweets, Facebook posts, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/UserTweets -->
+
+    <owl:Class rdf:about="http://schema.org/UserTweets">
+        <rdfs:subClassOf rdf:resource="http://schema.org/SocialMediaPosting"/>
+        <rdfs:comment>This class represents a type of publication of SocialMediaPosting, specifically of Tweeter</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.disit.org/km4city/schema#Bar -->
+
+    <owl:Class rdf:about="http://www.disit.org/km4city/schema#Bar">
+        <rdfs:subClassOf rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:comment>This subclass refers to a place where people can drink and sing</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.disit.org/km4city/schema#Discotheque -->
+
+    <owl:Class rdf:about="http://www.disit.org/km4city/schema#Discotheque">
+        <rdfs:subClassOf rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:comment>This subclass refers to a place where people can dance </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.disit.org/km4city/schema#Event -->
+
+    <owl:Class rdf:about="http://www.disit.org/km4city/schema#Event">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:comment>An event refers to an occurrence with a specific content in a specific site and for a specific time period, e.g. movie show.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.disit.org/km4city/schema#Hotel -->
+
+    <owl:Class rdf:about="http://www.disit.org/km4city/schema#Hotel">
+        <rdfs:subClassOf rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Hotelero"/>
+        <rdfs:comment>A hotel often provides a number of additional guest services such as a restaurant, a swiming pool or childcare. Some hotels have conference services and meeting rooms and encourage groups to hold conventions and meetings at their location. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.disit.org/km4city/schema#Restaurant -->
+
+    <owl:Class rdf:about="http://www.disit.org/km4city/schema#Restaurant">
+        <rdfs:subClassOf rdf:resource="http://idi.fundaciontic.org/cruzar/turismo#Recurso-Comercial"/>
+        <rdfs:comment>A restaurant is an establishment that serves prepared food and beverages to order, to be consumed on the premises</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:comment>The Organization class represents a kind of Agent corresponding to social instititutions such as companies, societies etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:comment>This class refers to the global concept of person</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://dbpedia.org/ontology/Province"/>
+            <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+            <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
