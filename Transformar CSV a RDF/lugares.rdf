@@ -1,0 +1,629 @@
+<http://idi.fundacionctic.org/cruzar/turismo#PampasdeGuambona> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-80.11546\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PampasdeGuambona> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.11432\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PampasdeGuambona> <http://schema.org/name> "Pampas de Guambona" .
+<http://idi.fundacionctic.org/cruzar/turismo#PampasdeGuambona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#CalleLourdes> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.202323\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CalleLourdes> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.002402\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CalleLourdes> <http://schema.org/name> "Calle Lourdes" .
+<http://idi.fundacionctic.org/cruzar/turismo#CalleLourdes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
+<http://dbpedia.org/ontology/Zapotillo> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Zapotillo> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Zapotillo> <http://schema.org/name> "Zapotillo" .
+<http://dbpedia.org/ontology/Zapotillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#RioCatamayo-SectorBoquer�_n> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9551660\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#RioCatamayo-SectorBoquer�_n> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"680627\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#RioCatamayo-SectorBoquer�_n> <http://schema.org/name> "Rio Catamayo - Sector Boquer�_n" .
+<http://idi.fundacionctic.org/cruzar/turismo#RioCatamayo-SectorBoquer�_n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioDeCristoPobre> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9525077\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioDeCristoPobre> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"677685\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioDeCristoPobre> <http://schema.org/name> "Santuario De Cristo Pobre" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioDeCristoPobre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://idi.fundacionctic.org/cruzar/turismo#BosquePetrificado> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9571173\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosquePetrificado> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"602165\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosquePetrificado> <http://schema.org/name> "Bosque Petrificado" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosquePetrificado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#SenderoEc�_logico> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-80.109000\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SenderoEc�_logico> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.117312\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SenderoEc�_logico> <http://schema.org/name> "Sendero Ec�_logico " .
+<http://idi.fundacionctic.org/cruzar/turismo#SenderoEc�_logico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSanJuanDelValle> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9560057\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSanJuanDelValle> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699937\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSanJuanDelValle> <http://schema.org/name> "Iglesia de San Juan Del Valle" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSanJuanDelValle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelasMadresConceptas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.200.723\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelasMadresConceptas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.997.228\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelasMadresConceptas> <http://schema.org/name> "Museo de las Madres Conceptas" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelasMadresConceptas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSantoDomingo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9558223\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSantoDomingo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699883\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSantoDomingo> <http://schema.org/name> "Iglesia de Santo Domingo" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSantoDomingo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://idi.fundacionctic.org/cruzar/turismo#PiscinaNaturalSC> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-80.109432\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiscinaNaturalSC> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.117325\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiscinaNaturalSC> <http://schema.org/name> "Piscina Natural SC" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiscinaNaturalSC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioDelSeձorDelBuenSuceso> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9532637\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioDelSeձorDelBuenSuceso> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"673739\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioDelSeձorDelBuenSuceso> <http://schema.org/name> "Santuario Del Seձor Del Buen Suceso" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioDelSeձorDelBuenSuceso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://dbpedia.org/ontology/Sozoranga> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Sozoranga> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Sozoranga> <http://schema.org/name> "Sozoranga" .
+<http://dbpedia.org/ontology/Sozoranga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#BalneariolasJuntas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.645564\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalneariolasJuntas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.879829\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalneariolasJuntas> <http://schema.org/name> "Balneario las Juntas" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalneariolasJuntas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#BaձodelInca> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9598579\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BaձodelInca> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"697121\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BaձodelInca> <http://schema.org/name> "Baձo del Inca" .
+<http://idi.fundacionctic.org/cruzar/turismo#BaձodelInca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#PetroglifosdeMisquillana> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.3839\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PetroglifosdeMisquillana> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.5237\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PetroglifosdeMisquillana> <http://schema.org/name> "Petroglifos de Misquillana" .
+<http://idi.fundacionctic.org/cruzar/turismo#PetroglifosdeMisquillana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueLaBanda> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.217634\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueLaBanda> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.946554\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueLaBanda> <http://schema.org/name> "Parque La Banda" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueLaBanda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#Moliendas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9565307\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Moliendas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"650909\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Moliendas> <http://schema.org/name> "Moliendas" .
+<http://idi.fundacionctic.org/cruzar/turismo#Moliendas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMatrizdeSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.237937\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMatrizdeSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.622611\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMatrizdeSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9599783\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMatrizdeSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"695944\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMatrizdeSaraguro> <http://schema.org/name> "Iglesia Matriz de Saraguro" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMatrizdeSaraguro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelBancoCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9558367\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelBancoCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699915\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelBancoCentral> <http://schema.org/name> "Museo del Banco Central" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelBancoCentral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueprotectordeWashapamba> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.235303\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueprotectordeWashapamba> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.627519\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueprotectordeWashapamba> <http://schema.org/name> "Bosque protector de Washapamba" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueprotectordeWashapamba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#Artesan�_as> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9527114\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Artesan�_as> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"673809\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Artesan�_as> <http://schema.org/name> "Artesan�_as" .
+<http://idi.fundacionctic.org/cruzar/turismo#Artesan�_as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
+<http://idi.fundacionctic.org/cruzar/turismo#CerroAhuaca> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9524941\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerroAhuaca> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"660645\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerroAhuaca> <http://schema.org/name> "Cerro Ahuaca" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerroAhuaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoHermanoJoaqu�_nLiթbanaCalle> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9552364\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoHermanoJoaqu�_nLiթbanaCalle> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"650372\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoHermanoJoaqu�_nLiթbanaCalle> <http://schema.org/name> "Museo Hermano Joaqu�_n Liթbana Calle" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoHermanoJoaqu�_nLiթbanaCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#PiedradelCuzco> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.2553\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiedradelCuzco> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.6593\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiedradelCuzco> <http://schema.org/name> "Piedra del Cuzco" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiedradelCuzco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://dbpedia.org/ontology/Olmedo> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Olmedo> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Olmedo> <http://schema.org/name> "Olmedo" .
+<http://dbpedia.org/ontology/Olmedo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueEcol�_gicoOrillasdelZamora> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9562659\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueEcol�_gicoOrillasdelZamora> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"698258\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueEcol�_gicoOrillasdelZamora> <http://schema.org/name> "Parque Ecol�_gico Orillas del Zamora" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueEcol�_gicoOrillasdelZamora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueRecreacionalJipiro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9561132\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueRecreacionalJipiro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699762\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueRecreacionalJipiro> <http://schema.org/name> "Parque Recreacional Jipiro" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueRecreacionalJipiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://dbpedia.org/ontology/Pindal> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Pindal> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Pindal> <http://schema.org/name> "Pindal" .
+<http://dbpedia.org/ontology/Pindal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#Museodelam�_sica> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.201036\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Museodelam�_sica> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.998625\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Museodelam�_sica> <http://schema.org/name> "Museo de la m�_sica" .
+<http://idi.fundacionctic.org/cruzar/turismo#Museodelam�_sica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#Orfebrer�_adeLaComunidadLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9598952\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Orfebrer�_adeLaComunidadLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"695650\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Orfebrer�_adeLaComunidadLagunas> <http://schema.org/name> "Orfebrer�_a de La Comunidad Lagunas" .
+<http://idi.fundacionctic.org/cruzar/turismo#Orfebrer�_adeLaComunidadLagunas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdelCompadre> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-7.910.651\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdelCompadre> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.16543\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdelCompadre> <http://schema.org/name> "Lagunas del Compadre" .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdelCompadre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuariodeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9574606\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuariodeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"674956\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuariodeElCisne> <http://schema.org/name> "Santuario de El Cisne" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuariodeElCisne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://dbpedia.org/ontology/Quilanga> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Quilanga> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Quilanga> <http://schema.org/name> "Quilanga" .
+<http://dbpedia.org/ontology/Quilanga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://dbpedia.org/ontology/Loja> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Loja> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Loja> <http://schema.org/name> "Loja" .
+<http://dbpedia.org/ontology/Loja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#MonolitosdeQuillusara> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9537708\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MonolitosdeQuillusara> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"599084\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MonolitosdeQuillusara> <http://schema.org/name> "Monolitos de Quillusara" .
+<http://idi.fundacionctic.org/cruzar/turismo#MonolitosdeQuillusara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#Malacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.258886\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Malacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.219135\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Malacatos> <http://schema.org/name> "Malacatos" .
+<http://idi.fundacionctic.org/cruzar/turismo#Malacatos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueLinealLaTebaida> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.203.107\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueLinealLaTebaida> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.017.711\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueLinealLaTebaida> <http://schema.org/name> "Parque Lineal La Tebaida" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueLinealLaTebaida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadaVirgendelKaka> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.261029\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadaVirgendelKaka> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.6048576\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadaVirgendelKaka> <http://schema.org/name> "Cascada Virgen del Kaka" .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadaVirgendelKaka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://dbpedia.org/ontology/Celica> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Celica> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Celica> <http://schema.org/name> "Celica" .
+<http://dbpedia.org/ontology/Celica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#Vilcabamba> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.130\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Vilcabamba> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.000\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Vilcabamba> <http://schema.org/name> "Vilcabamba" .
+<http://idi.fundacionctic.org/cruzar/turismo#Vilcabamba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#CentroComercialReinadeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9558500\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CentroComercialReinadeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699831\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CentroComercialReinadeElCisne> <http://schema.org/name> "Centro Comercial Reina de El Cisne" .
+<http://idi.fundacionctic.org/cruzar/turismo#CentroComercialReinadeElCisne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueNacionalPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9548776\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueNacionalPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699466\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueNacionalPodocarpus> <http://schema.org/name> "Parque Nacional Podocarpus" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueNacionalPodocarpus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#TaitaPuglla> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.4341\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#TaitaPuglla> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.3138\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#TaitaPuglla> <http://schema.org/name> "Taita Puglla" .
+<http://idi.fundacionctic.org/cruzar/turismo#TaitaPuglla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#Jard�_nBotՍnicoReinaldoEspinoza> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9553922\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Jard�_nBotՍnicoReinaldoEspinoza> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"700240\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Jard�_nBotՍnicoReinaldoEspinoza> <http://schema.org/name> "Jard�_n BotՍnico Reinaldo Espinoza" .
+<http://idi.fundacionctic.org/cruzar/turismo#Jard�_nBotՍnicoReinaldoEspinoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://dbpedia.org/ontology/Gonzanam��> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Gonzanam��> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Gonzanam��> <http://schema.org/name> "Gonzanam��" .
+<http://dbpedia.org/ontology/Gonzanam��> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://dbpedia.org/ontology/Canton" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerՍmicasdeGunudel> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9598891\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerՍmicasdeGunudel> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"696098\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerՍmicasdeGunudel> <http://schema.org/name> "CerՍmicas de Gunudel" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerՍmicasdeGunudel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMar�_aAuxiliadora> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9559514\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMar�_aAuxiliadora> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"682563\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMar�_aAuxiliadora> <http://schema.org/name> "Iglesia Mar�_a Auxiliadora" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaMar�_aAuxiliadora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioSanJose> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-80.110460\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioSanJose> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.120608 \"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioSanJose> <http://schema.org/name> "Balneario San Jose" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioSanJose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelReloj8esferas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-80.01958\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelReloj8esferas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.01783\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelReloj8esferas> <http://schema.org/name> "Museo del Reloj 8 esferas" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseodelReloj8esferas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#IngenioMonterrey> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9561453\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IngenioMonterrey> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"679812\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IngenioMonterrey> <http://schema.org/name> "Ingenio Monterrey" .
+<http://idi.fundacionctic.org/cruzar/turismo#IngenioMonterrey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#CondorWasi> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.431267\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CondorWasi> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.223507\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CondorWasi> <http://schema.org/name> "Condor Wasi" .
+<http://idi.fundacionctic.org/cruzar/turismo#CondorWasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoUTPL> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.198.993\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoUTPL> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.985.646\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoUTPL> <http://schema.org/name> "Museo UTPL" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoUTPL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://dbpedia.org/ontology/Espindola> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Espindola> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Espindola> <http://schema.org/name> "Espindola" .
+<http://dbpedia.org/ontology/Espindola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioelGuineo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.646057\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioelGuineo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.878415\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioelGuineo> <http://schema.org/name> "Balneario el Guineo" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioelGuineo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://dbpedia.org/ontology/Paltas> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Paltas> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Paltas> <http://schema.org/name> "Paltas" .
+<http://dbpedia.org/ontology/Paltas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#CatedraldeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.200786\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CatedraldeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.996593\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CatedraldeLoja> <http://schema.org/name> "Catedral de Loja" .
+<http://idi.fundacionctic.org/cruzar/turismo#CatedraldeLoja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://dbpedia.org/ontology/Calvas> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Calvas> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Calvas> <http://schema.org/name> "Calvas" .
+<http://dbpedia.org/ontology/Calvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadadelaBanda> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.409476\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadadelaBanda> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.237001\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadadelaBanda> <http://schema.org/name> "Cascada de la Banda" .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadadelaBanda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9533791\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"693516\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeMalacatos> <http://schema.org/name> "Iglesia de Malacatos" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeMalacatos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueProtectorJatumpamba-Jorupe> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9517036\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueProtectorJatumpamba-Jorupe> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"622282\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueProtectorJatumpamba-Jorupe> <http://schema.org/name> "Bosque Protector Jatumpamba-Jorupe" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueProtectorJatumpamba-Jorupe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdeSaraguallas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.3802\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdeSaraguallas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.5224\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdeSaraguallas> <http://schema.org/name> "Lagunas de Saraguallas" .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdeSaraguallas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#PiscinaNaturaldePapalango> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9546083\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiscinaNaturaldePapalango> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"599559\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiscinaNaturaldePapalango> <http://schema.org/name> "Piscina Natural de Papalango" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiscinaNaturaldePapalango> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#PiedradelSol> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9560444\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiedradelSol> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"650579\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiedradelSol> <http://schema.org/name> "Piedra del Sol" .
+<http://idi.fundacionctic.org/cruzar/turismo#PiedradelSol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#PuertadeLaCiudad> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9559188\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PuertadeLaCiudad> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699656\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PuertadeLaCiudad> <http://schema.org/name> "Puerta de La Ciudad" .
+<http://idi.fundacionctic.org/cruzar/turismo#PuertadeLaCiudad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
+<http://idi.fundacionctic.org/cruzar/turismo#PlazadeSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.201493\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PlazadeSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.001540\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PlazadeSanSebastiՍn> <http://schema.org/name> "Plaza de San SebastiՍn" .
+<http://idi.fundacionctic.org/cruzar/turismo#PlazadeSanSebastiՍn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#Ingahurco> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.431405\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Ingahurco> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.223482\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Ingahurco> <http://schema.org/name> "Ingahurco" .
+<http://idi.fundacionctic.org/cruzar/turismo#Ingahurco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaSanPedroMՍrtir> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9522043\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaSanPedroMՍrtir> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"660503\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaSanPedroMՍrtir> <http://schema.org/name> "Iglesia San Pedro MՍrtir" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaSanPedroMՍrtir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://idi.fundacionctic.org/cruzar/turismo#PuenteInternacionalyR�_oMacarՍ> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9514741\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PuenteInternacionalyR�_oMacarՍ> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"615219\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#PuenteInternacionalyR�_oMacarՍ> <http://schema.org/name> "Puente Internacional y R�_o MacarՍ" .
+<http://idi.fundacionctic.org/cruzar/turismo#PuenteInternacionalyR�_oMacarՍ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
+<http://idi.fundacionctic.org/cruzar/turismo#MiradorShiriculapo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9552215\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MiradorShiriculapo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"650016\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MiradorShiriculapo> <http://schema.org/name> "Mirador Shiriculapo" .
+<http://idi.fundacionctic.org/cruzar/turismo#MiradorShiriculapo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://dbpedia.org/ontology/Macar��> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Macar��> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Macar��> <http://schema.org/name> "Macar��" .
+<http://dbpedia.org/ontology/Macar��> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#TallerArtesanalComunidaddeLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9598167\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#TallerArtesanalComunidaddeLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"695837\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#TallerArtesanalComunidaddeLagunas> <http://schema.org/name> "Taller Artesanal Comunidad de Lagunas" .
+<http://idi.fundacionctic.org/cruzar/turismo#TallerArtesanalComunidaddeLagunas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#Le�_nDormido> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9602204\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Le�_nDormido> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"700080\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#Le�_nDormido> <http://schema.org/name> "Le�_n Dormido" .
+<http://idi.fundacionctic.org/cruzar/turismo#Le�_nDormido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSanFrancisco> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9558600\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSanFrancisco> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699931\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSanFrancisco> <http://schema.org/name> "Iglesia de San Francisco" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiadeSanFrancisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://idi.fundacionctic.org/cruzar/turismo#GranjaExperimentalDemostrativaLanzaca> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9530160\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#GranjaExperimentalDemostrativaLanzaca> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"669552\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#GranjaExperimentalDemostrativaLanzaca> <http://schema.org/name> "Granja Experimental Demostrativa Lanzaca" .
+<http://idi.fundacionctic.org/cruzar/turismo#GranjaExperimentalDemostrativaLanzaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueProtectorLaCeiba> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9515091\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueProtectorLaCeiba> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"583818\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueProtectorLaCeiba> <http://schema.org/name> "Bosque Protector La Ceiba" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosqueProtectorLaCeiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.201722\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.996673\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueCentral> <http://schema.org/name> "Parque Central" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueCentral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#EdificiodeIlincho> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9598835\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#EdificiodeIlincho> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"695150\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#EdificiodeIlincho> <http://schema.org/name> "Edificio de Ilincho" .
+<http://idi.fundacionctic.org/cruzar/turismo#EdificiodeIlincho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
+<http://idi.fundacionctic.org/cruzar/turismo#R�_oCatamayo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9515240\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#R�_oCatamayo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"584853\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#R�_oCatamayo> <http://schema.org/name> "R�_o Catamayo" .
+<http://idi.fundacionctic.org/cruzar/turismo#R�_oCatamayo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#IndumentariadeLaEtniaSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9599746\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IndumentariadeLaEtniaSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"696075\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IndumentariadeLaEtniaSaraguro> <http://schema.org/name> "Indumentaria de La Etnia Saraguro" .
+<http://idi.fundacionctic.org/cruzar/turismo#IndumentariadeLaEtniaSaraguro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://dbpedia.org/ontology/Puyango> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Puyango> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Puyango> <http://schema.org/name> "Puyango" .
+<http://dbpedia.org/ontology/Puyango> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#CentroHistoricoCiudaddeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9558340\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CentroHistoricoCiudaddeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699930\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CentroHistoricoCiudaddeLoja> <http://schema.org/name> "Centro Historico Ciudad de Loja" .
+<http://idi.fundacionctic.org/cruzar/turismo#CentroHistoricoCiudaddeLoja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
+<http://idi.fundacionctic.org/cruzar/turismo#MoliendasdeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9534174\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MoliendasdeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"694035\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MoliendasdeMalacatos> <http://schema.org/name> "Moliendas de Malacatos" .
+<http://idi.fundacionctic.org/cruzar/turismo#MoliendasdeMalacatos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#CerroColambo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9531836\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerroColambo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"678287\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerroColambo> <http://schema.org/name> "Cerro Colambo" .
+<http://idi.fundacionctic.org/cruzar/turismo#CerroColambo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioelArenal> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.98552\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioelArenal> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\" -3.96139         \"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioelArenal> <http://schema.org/name> "Balneario el Arenal" .
+<http://idi.fundacionctic.org/cruzar/turismo#BalnearioelArenal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#UniversidadTթcnicaParticulardeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9560200\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#UniversidadTթcnicaParticulardeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"700026\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#UniversidadTթcnicaParticulardeLoja> <http://schema.org/name> "Universidad Tթcnica Particular de Loja" .
+<http://idi.fundacionctic.org/cruzar/turismo#UniversidadTթcnicaParticulardeLoja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadaLandara> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-80.14466\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadaLandara> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.13421\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadaLandara> <http://schema.org/name> "Cascada Landara" .
+<http://idi.fundacionctic.org/cruzar/turismo#CascadaLandara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://dbpedia.org/ontology/Chaguarpamba> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Chaguarpamba> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Chaguarpamba> <http://schema.org/name> "Chaguarpamba" .
+<http://dbpedia.org/ontology/Chaguarpamba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueBol�_var> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-79.204.804\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueBol�_var> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-3.994.869\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueBol�_var> <http://schema.org/name> "Parque Bol�_var" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParqueBol�_var> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://dbpedia.org/ontology/Saraguro> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Saraguro> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Saraguro> <http://schema.org/name> "Saraguro" .
+<http://dbpedia.org/ontology/Saraguro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#BosquedeMarfilNatural> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"-80.025424\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosquedeMarfilNatural> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"-4.016170\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosquedeMarfilNatural> <http://schema.org/name> "Bosque de Marfil Natural" .
+<http://idi.fundacionctic.org/cruzar/turismo#BosquedeMarfilNatural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdeJimbura> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9489810\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdeJimbura> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"682894\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdeJimbura> <http://schema.org/name> "Lagunas de Jimbura" .
+<http://idi.fundacionctic.org/cruzar/turismo#LagunasdeJimbura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoMatildeHidalgodeProcel> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9558367\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoMatildeHidalgodeProcel> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699996\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoMatildeHidalgodeProcel> <http://schema.org/name> "Museo Matilde Hidalgo de Procel" .
+<http://idi.fundacionctic.org/cruzar/turismo#MuseoMatildeHidalgodeProcel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaCatedral> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9558500\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaCatedral> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699872\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaCatedral> <http://schema.org/name> "Iglesia Catedral" .
+<http://idi.fundacionctic.org/cruzar/turismo#IglesiaCatedral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
+<http://idi.fundacionctic.org/cruzar/turismo#ParquePucarՍPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9557140\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParquePucarՍPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"700582\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParquePucarՍPodocarpus> <http://schema.org/name> "Parque PucarՍ Podocarpus" .
+<http://idi.fundacionctic.org/cruzar/turismo#ParquePucarՍPodocarpus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
+<http://dbpedia.org/ontology/Catamayo> <http://dbpedia.org/ontology/province> <<ModelCom   {http://dbpedia.org/ontology/ @rdf:type owl:Ontology; http://dbpedia.org/ontology/ @rdf:type ns1:Vocabulary; http://dbpedia.org/ontology/ @dct:description "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en; http://dbpedia.org/ontology/ @foaf:homepage ns8:Ontology; http://dbpedia.org/ontology/ @owl:versionInfo "4.2-SNAPSHOT"@en; http://dbpedia.org/ontology/ @ns5:license http://www.gnu.org/copyleft/fdl.html; http://dbpedia.org/ontology/ @dct:source http://mappings.dbpedia.org; http://dbpedia.org/ontology/ @dct:creator "DBpedia Maintainers and Contributors"; http://dbpedia.org/ontology/ @rdfs:comment "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en; http://dbpedia.org/ontology/ @ns5:license http://creativecommons.org/licenses/by-sa/3.0/; http://dbpedia.org/ontology/ @dct:issued "2008-11-17T12:00Z"; http://dbpedia.org/ontology/ @dct:publisher "DBpedia Maintainers"; http://dbpedia.org/ontology/ @dct:title "The DBpedia Ontology"@en; http://dbpedia.org/ontology/ @owl:sameAs http://dbpedia.org/ontology/; http://dbpedia.org/ontology/ @ns6:preferredNamespacePrefix "dbo"; http://dbpedia.org/ontology/ @ns6:preferredNamespaceUri "http://dbpedia.org/ontology/"; http://dbpedia.org/ontology/ @dct:modified "2016-05-21T19:13Z"} |  [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.w3.org/2002/07/owl#Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://purl.org/vocommons/voaf#Vocabulary] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/description, "
+              The DBpedia ontology provides the classes and properties used in the DBpedia data set.
+            "@en] [http://dbpedia.org/ontology/, http://xmlns.com/foaf/0.1/homepage, http://wiki.dbpedia.org/Ontology] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#versionInfo, "4.2-SNAPSHOT"@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://www.gnu.org/copyleft/fdl.html] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/source, http://mappings.dbpedia.org] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/creator, "DBpedia Maintainers and Contributors"] [http://dbpedia.org/ontology/, http://www.w3.org/2000/01/rdf-schema#comment, "
+              This ontology is generated from the manually created specifications in the DBpedia Mappings
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+              contains instance data extracted from the different language versions of Wikipedia. For
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.
+            "@en] [http://dbpedia.org/ontology/, http://creativecommons.org/ns#license, http://creativecommons.org/licenses/by-sa/3.0/] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/issued, "2008-11-17T12:00Z"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/publisher, "DBpedia Maintainers"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/title, "The DBpedia Ontology"@en] [http://dbpedia.org/ontology/, http://www.w3.org/2002/07/owl#sameAs, http://dbpedia.org/ontology/] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespacePrefix, "dbo"] [http://dbpedia.org/ontology/, http://purl.org/vocab/vann/preferredNamespaceUri, "http://dbpedia.org/ontology/"] [http://dbpedia.org/ontology/, http://purl.org/dc/terms/modified, "2016-05-21T19:13Z"]>Canton> .
+<http://dbpedia.org/ontology/Catamayo> <http://dbpedia.org/ontology/province> "Loja" .
+<http://dbpedia.org/ontology/Catamayo> <http://schema.org/name> "Catamayo" .
+<http://dbpedia.org/ontology/Catamayo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioEucar�_sticoSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "\"\"9557978\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioEucar�_sticoSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "\"\"699922\"\"" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioEucar�_sticoSanSebastiՍn> <http://schema.org/name> "Santuario Eucar�_stico San SebastiՍn" .
+<http://idi.fundacionctic.org/cruzar/turismo#SantuarioEucar�_sticoSanSebastiՍn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
