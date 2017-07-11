@@ -9,6 +9,9 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+nav{
+  background: red;
+}
 body {
   margin: 0;
 }
@@ -27,6 +30,7 @@ section,
 summary {
   display: block;
 }
+
 audio,
 canvas,
 progress,
@@ -3975,6 +3979,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background: red;
 }
 .nav > li {
   position: relative;
@@ -3998,7 +4003,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
   text-decoration: none;
   cursor: not-allowed;
-  background-color: transparent;
+  background-color: red;
 }
 .nav .open > a,
 .nav .open > a:hover,
@@ -4036,7 +4041,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555;
   cursor: default;
-  background-color: #fff;
+  background-color: black;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
