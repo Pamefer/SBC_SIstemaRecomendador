@@ -3,7 +3,7 @@
 
 <head>
 
-    <meta charset="utf-8">
+     <meta charset="utf-8"><meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -83,7 +83,7 @@
                     </li>
                     <li>
                        <form action="bus.php" method="POST">
-<input type="text" id="keywords" name="keywords" size="15" maxlength="15">
+<input type="text" id="keywords" name="keywords" size="15" maxlength="15" minlength="4">
 <input type="submit" name="search" id="search" value="Buscar">
 </form>
                     </li>
@@ -109,7 +109,8 @@ if (isset($_POST['search'])) {
 ?>
 
 <?php
-
+mb_internal_encoding('UTF-8');
+mb_http_output('UTF-8');
 require_once( "sparqllib.php" );
 
 $db = sparql_connect( "http://localhost:8890/sparql" );
@@ -137,7 +138,7 @@ while( $row = sparql_fetch_array( $result ) )
     print "<tr>";
     foreach( $fields as $field )
     {
-        print "<td>$row[$field]</td>";
+         echo utf8_decode("<td>".$row[$field]."</td>");
         
     }
     print "</tr>";

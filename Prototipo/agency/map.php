@@ -7,20 +7,19 @@ require_once( "sparqllib.php" );
   //Realizamos la consulta a la tabla correspondiente
  
        $datos2=array();
-              $data2 = sparql_get( "http://localhost:8890/sparql","select ?recurso ?a ?lat ?long ?nombre where {<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ?b ?c.
+              $data2 = sparql_get( "http://localhost:8890/sparql","select ?recurso ?c ?lat ?long ?nombre where {<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ?b ?c.
 filter(regex(?c, 'http://idi.fundacionctic.org/cruzar/turismo#' )).
 ?recurso <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?c.
 ?recurso <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat.
 ?recurso <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long.
 ?recurso <http://schema.org/name> ?nombre.
-?c <http://dbpedia.org/ontology/label> ?a
 filter(regex(?recurso, '$trans' ))}" );
 $marker_pintar = ""; 
               foreach( $data2 as $row )
                         {
                                         
                         $datos2[]=array("nombre"=>$row["nombre"]);
-                         $marker_pintar .= "['".$row["recurso"]."','".$row["lat"]."','".$row["long"]."','".$row["nombre"]."','".$row["a"]."'],";
+                         $marker_pintar .= "['".$row["recurso"]."','".$row["lat"]."','".$row["long"]."','".$row["nombre"]."'],";
                       }                         
 ?>
 <!DOCTYPE html>
@@ -29,7 +28,6 @@ $marker_pintar = "";
 <head>
 
     <meta charset="utf-8">
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -126,7 +124,7 @@ $marker_pintar = "";
 <h3>Mapa de Lugares Turísticos</h3>
 
       <?php 
-        
+            //Consulta rating
              $datos1=array();
               $datos11=array();
               $data2 = sparql_get( "http://localhost:8890/sparql","select ?recurso ?c ?nombre where {<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ?b ?c.
@@ -273,7 +271,7 @@ var locations = [ <?php echo $marker_pintar; ?>];
            var lat = locations[i][1]
            var long = locations[i][2]
            var add =  locations[i][3]
-           var tipo =  locations[i][4]
+           //var img =  locations[i][4]
            console.log(lat)
            
 
@@ -283,7 +281,7 @@ var locations = [ <?php echo $marker_pintar; ?>];
                 map: map, title: add , position: latlngset  
             });
             map.setCenter(marker.getPosition())
-            var content = "Nombre : " + add +  '</h3>' +'<br>'+ "Coordenadas: " + long  +   " , " +lat+'<br>'+ "Recurso: "+tipo
+            var content = "Nombre : " + add +  '</h3>' +'<br>'+ "Coordenadas: " + long  +   " , " +lat
 
             var infowindow = new google.maps.InfoWindow()
 

@@ -83,7 +83,7 @@
                     </li>
                     <li>
                        <form action="bus.php" method="POST">
-<input type="text" id="keywords" name="keywords" size="15" maxlength="15">
+<input type="text" id="keywords" name="keywords" size="15" maxlength="15"  minlength="4">
 <input type="submit" name="search" id="search" value="Buscar">
 </form>
                     </li>

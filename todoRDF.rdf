@@ -48,39 +48,32 @@
 <http://turismoloja.sbc/schema/data#Chaguarpamba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Canton> .
 
 
-
-
-
-
-
-
-
-<http://turismoloja.sbc/schema/data#PiscinaNaturaldePapalango> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.109631" .
-<http://turismoloja.sbc/schema/data#PiscinaNaturaldePapalango> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-80.097020" .
+<http://turismoloja.sbc/schema/data#PiscinaNaturaldePapalango> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-80.097020" .
+<http://turismoloja.sbc/schema/data#PiscinaNaturaldePapalango> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.109631" .
 <http://turismoloja.sbc/schema/data#PiscinaNaturaldePapalango> <http://schema.org/name> "Piscina Natural de Papalango" .
 <http://turismoloja.sbc/schema/data#PiscinaNaturaldePapalango> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#ParqueCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.201722" .
 <http://turismoloja.sbc/schema/data#ParqueCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.996673" .
 <http://turismoloja.sbc/schema/data#ParqueCentral> <http://schema.org/name> "Parque Central" .
 <http://turismoloja.sbc/schema/data#ParqueCentral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#CerՍmicasdeGunudel> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9598891" .
-<http://turismoloja.sbc/schema/data#CerՍmicasdeGunudel> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "696098" .
+<http://turismoloja.sbc/schema/data#CerՍmicasdeGunudel> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.239535" .
+<http://turismoloja.sbc/schema/data#CerՍmicasdeGunudel> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.623885," .
 <http://turismoloja.sbc/schema/data#CerՍmicasdeGunudel> <http://schema.org/name> "CerՍmicas de Gunudel" .
 <http://turismoloja.sbc/schema/data#CerՍmicasdeGunudel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
 <http://turismoloja.sbc/schema/data#PiedradelCuzco> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.2553" .
 <http://turismoloja.sbc/schema/data#PiedradelCuzco> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.6593" .
 <http://turismoloja.sbc/schema/data#PiedradelCuzco> <http://schema.org/name> "Piedra del Cuzco" .
 <http://turismoloja.sbc/schema/data#PiedradelCuzco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#SantuarioEucar�_sticoSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9557978" .
-<http://turismoloja.sbc/schema/data#SantuarioEucar�_sticoSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699922" .
+<http://turismoloja.sbc/schema/data#SantuarioEucar�_sticoSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.201483" .
+<http://turismoloja.sbc/schema/data#SantuarioEucar�_sticoSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.002012" .
 <http://turismoloja.sbc/schema/data#SantuarioEucar�_sticoSanSebastiՍn> <http://schema.org/name> "Santuario Eucar�_stico San SebastiՍn" .
 <http://turismoloja.sbc/schema/data#SantuarioEucar�_sticoSanSebastiՍn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
-<http://turismoloja.sbc/schema/data#MiradorShiriculapo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.053608" .
-<http://turismoloja.sbc/schema/data#MiradorShiriculapo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.650640" .
+<http://turismoloja.sbc/schema/data#MiradorShiriculapo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.650640" .
+<http://turismoloja.sbc/schema/data#MiradorShiriculapo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.053608" .
 <http://turismoloja.sbc/schema/data#MiradorShiriculapo> <http://schema.org/name> "Mirador Shiriculapo" .
 <http://turismoloja.sbc/schema/data#MiradorShiriculapo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#ParqueNacionalPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.084839" .
-<http://turismoloja.sbc/schema/data#ParqueNacionalPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.208591" .
+<http://turismoloja.sbc/schema/data#ParqueNacionalPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.208591" .
+<http://turismoloja.sbc/schema/data#ParqueNacionalPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.084839" .
 <http://turismoloja.sbc/schema/data#ParqueNacionalPodocarpus> <http://schema.org/name> "Parque Nacional Podocarpus" .
 <http://turismoloja.sbc/schema/data#ParqueNacionalPodocarpus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#TaitaPuglla> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.4341" .
@@ -91,84 +84,84 @@
 <http://turismoloja.sbc/schema/data#PetroglifosdeMisquillana> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.5237" .
 <http://turismoloja.sbc/schema/data#PetroglifosdeMisquillana> <http://schema.org/name> "Petroglifos de Misquillana" .
 <http://turismoloja.sbc/schema/data#PetroglifosdeMisquillana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#MoliendasdeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9534174" .
-<http://turismoloja.sbc/schema/data#MoliendasdeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "694035" .
+<http://turismoloja.sbc/schema/data#MoliendasdeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.247839" .
+<http://turismoloja.sbc/schema/data#MoliendasdeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.220325" .
 <http://turismoloja.sbc/schema/data#MoliendasdeMalacatos> <http://schema.org/name> "Moliendas de Malacatos" .
 <http://turismoloja.sbc/schema/data#MoliendasdeMalacatos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
-<http://turismoloja.sbc/schema/data#IglesiaSanPedroMՍrtir> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9522043" .
-<http://turismoloja.sbc/schema/data#IglesiaSanPedroMՍrtir> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "660503" .
+<http://turismoloja.sbc/schema/data#IglesiaSanPedroMՍrtir> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.556219" .
+<http://turismoloja.sbc/schema/data#IglesiaSanPedroMՍrtir> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.325947" .
 <http://turismoloja.sbc/schema/data#IglesiaSanPedroMՍrtir> <http://schema.org/name> "Iglesia San Pedro MՍrtir" .
 <http://turismoloja.sbc/schema/data#IglesiaSanPedroMՍrtir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
-<http://turismoloja.sbc/schema/data#PuertadeLaCiudad> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9559188" .
-<http://turismoloja.sbc/schema/data#PuertadeLaCiudad> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699656" .
+<http://turismoloja.sbc/schema/data#PuertadeLaCiudad> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.204186" .
+<http://turismoloja.sbc/schema/data#PuertadeLaCiudad> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.989703" .
 <http://turismoloja.sbc/schema/data#PuertadeLaCiudad> <http://schema.org/name> "Puerta de La Ciudad" .
 <http://turismoloja.sbc/schema/data#PuertadeLaCiudad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
 <http://turismoloja.sbc/schema/data#MuseodelReloj8esferas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-80.01958" .
 <http://turismoloja.sbc/schema/data#MuseodelReloj8esferas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.01783" .
 <http://turismoloja.sbc/schema/data#MuseodelReloj8esferas> <http://schema.org/name> "Museo del Reloj 8 esferas" .
 <http://turismoloja.sbc/schema/data#MuseodelReloj8esferas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
-<http://turismoloja.sbc/schema/data#CentroHistoricoCiudaddeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9558340" .
-<http://turismoloja.sbc/schema/data#CentroHistoricoCiudaddeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699930" .
+<http://turismoloja.sbc/schema/data#CentroHistoricoCiudaddeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.201678" .
+<http://turismoloja.sbc/schema/data#CentroHistoricoCiudaddeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.996191" .
 <http://turismoloja.sbc/schema/data#CentroHistoricoCiudaddeLoja> <http://schema.org/name> "Centro Historico Ciudad de Loja" .
 <http://turismoloja.sbc/schema/data#CentroHistoricoCiudaddeLoja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
-<http://turismoloja.sbc/schema/data#BosqueProtectorLaCeiba> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.389570" .
-<http://turismoloja.sbc/schema/data#BosqueProtectorLaCeiba> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-80.261057" .
+<http://turismoloja.sbc/schema/data#BosqueProtectorLaCeiba> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-80.261057" .
+<http://turismoloja.sbc/schema/data#BosqueProtectorLaCeiba> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.389570" .
 <http://turismoloja.sbc/schema/data#BosqueProtectorLaCeiba> <http://schema.org/name> "Bosque Protector La Ceiba" .
 <http://turismoloja.sbc/schema/data#BosqueProtectorLaCeiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#BosquePetrificado> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.898592" .
-<http://turismoloja.sbc/schema/data#BosquePetrificado> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-80.086814" .
+<http://turismoloja.sbc/schema/data#BosquePetrificado> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-80.086814" .
+<http://turismoloja.sbc/schema/data#BosquePetrificado> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.898592" .
 <http://turismoloja.sbc/schema/data#BosquePetrificado> <http://schema.org/name> "Bosque Petrificado" .
 <http://turismoloja.sbc/schema/data#BosquePetrificado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#SenderoEco_logico> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-80.109000" .
 <http://turismoloja.sbc/schema/data#SenderoEco_logico> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.117312" .
 <http://turismoloja.sbc/schema/data#SenderoEco_logico> <http://schema.org/name> "Sendero Eco_logico " .
 <http://turismoloja.sbc/schema/data#SenderoEco_logico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#IglesiadeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9533791" .
-<http://turismoloja.sbc/schema/data#IglesiadeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "693516" .
+<http://turismoloja.sbc/schema/data#IglesiadeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.222915" .
+<http://turismoloja.sbc/schema/data#IglesiadeMalacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.261402" .
 <http://turismoloja.sbc/schema/data#IglesiadeMalacatos> <http://schema.org/name> "Iglesia de Malacatos" .
 <http://turismoloja.sbc/schema/data#IglesiadeMalacatos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
-<http://turismoloja.sbc/schema/data#MuseoMatildeHidalgodeProcel> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9558367" .
-<http://turismoloja.sbc/schema/data#MuseoMatildeHidalgodeProcel> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699996" .
+<http://turismoloja.sbc/schema/data#MuseoMatildeHidalgodeProcel> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.205950" .
+<http://turismoloja.sbc/schema/data#MuseoMatildeHidalgodeProcel> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.994267" .
 <http://turismoloja.sbc/schema/data#MuseoMatildeHidalgodeProcel> <http://schema.org/name> "Museo Matilde Hidalgo de Procel" .
 <http://turismoloja.sbc/schema/data#MuseoMatildeHidalgodeProcel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
 <http://turismoloja.sbc/schema/data#PlazadeSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.201493" .
 <http://turismoloja.sbc/schema/data#PlazadeSanSebastiՍn> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.001540" .
 <http://turismoloja.sbc/schema/data#PlazadeSanSebastiՍn> <http://schema.org/name> "Plaza de San SebastiՍn" .
 <http://turismoloja.sbc/schema/data#PlazadeSanSebastiՍn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#RioCatamayo-SectorBoqueron> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.210362" .
-<http://turismoloja.sbc/schema/data#RioCatamayo-SectorBoqueron> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.374460" .
+<http://turismoloja.sbc/schema/data#RioCatamayo-SectorBoqueron> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.374460" .
+<http://turismoloja.sbc/schema/data#RioCatamayo-SectorBoqueron> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.210362" .
 <http://turismoloja.sbc/schema/data#RioCatamayo-SectorBoqueron> <http://schema.org/name> "Rio Catamayo - Sector Boquer�_n" .
 <http://turismoloja.sbc/schema/data#RioCatamayo-SectorBoqueron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#CentroComercialReinadeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9558500" .
-<http://turismoloja.sbc/schema/data#CentroComercialReinadeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699831" .
+<http://turismoloja.sbc/schema/data#CentroComercialReinadeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.204149" .
+<http://turismoloja.sbc/schema/data#CentroComercialReinadeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.997827" .
 <http://turismoloja.sbc/schema/data#CentroComercialReinadeElCisne> <http://schema.org/name> "Centro Comercial Reina de El Cisne" .
 <http://turismoloja.sbc/schema/data#CentroComercialReinadeElCisne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
-<http://turismoloja.sbc/schema/data#ParquePucarՍPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.010400" .
-<http://turismoloja.sbc/schema/data#ParquePucarՍPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.193379" .
+<http://turismoloja.sbc/schema/data#ParquePucarՍPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.193379" .
+<http://turismoloja.sbc/schema/data#ParquePucarՍPodocarpus> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.010400" .
 <http://turismoloja.sbc/schema/data#ParquePucarՍPodocarpus> <http://schema.org/name> "Parque PucarՍ Podocarpus" .
 <http://turismoloja.sbc/schema/data#ParquePucarՍPodocarpus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#SantuarioDelSeձorDelBuenSuceso> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9532637" .
-<http://turismoloja.sbc/schema/data#SantuarioDelSeձorDelBuenSuceso> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "673739" .
+<http://turismoloja.sbc/schema/data#SantuarioDelSeձorDelBuenSuceso> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.436038" .
+<http://turismoloja.sbc/schema/data#SantuarioDelSeձorDelBuenSuceso> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.230161" .
 <http://turismoloja.sbc/schema/data#SantuarioDelSeձorDelBuenSuceso> <http://schema.org/name> "Santuario Del Seձor Del Buen Suceso" .
 <http://turismoloja.sbc/schema/data#SantuarioDelSeձorDelBuenSuceso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
 <http://turismoloja.sbc/schema/data#MuseoUTPL> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.198.993" .
 <http://turismoloja.sbc/schema/data#MuseoUTPL> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.985.646" .
 <http://turismoloja.sbc/schema/data#MuseoUTPL> <http://schema.org/name> "Museo UTPL" .
 <http://turismoloja.sbc/schema/data#MuseoUTPL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
-<http://turismoloja.sbc/schema/data#SantuarioDeCristoPobre> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9525077" .
-<http://turismoloja.sbc/schema/data#SantuarioDeCristoPobre> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "677685" .
+<http://turismoloja.sbc/schema/data#SantuarioDeCristoPobre> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.402249" .
+<http://turismoloja.sbc/schema/data#SantuarioDeCristoPobre> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.297489" .
 <http://turismoloja.sbc/schema/data#SantuarioDeCristoPobre> <http://schema.org/name> "Santuario De Cristo Pobre" .
 <http://turismoloja.sbc/schema/data#SantuarioDeCristoPobre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
 <http://turismoloja.sbc/schema/data#MuseoHermanoJoaquinLiebanaCalle> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9552364" .
 <http://turismoloja.sbc/schema/data#MuseoHermanoJoaquinLiebanaCalle> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "650372" .
 <http://turismoloja.sbc/schema/data#MuseoHermanoJoaquonLiebanaCalle> <http://schema.org/name> "Museo Hermano Joaquin Liebana Calle" .
 <http://turismoloja.sbc/schema/data#MuseoHermanoJoaquinLiebanaCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
-<http://turismoloja.sbc/schema/data#PiedradelSol> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.217695" .
-<http://turismoloja.sbc/schema/data#PiedradelSol> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.183676" .
+<http://turismoloja.sbc/schema/data#PiedradelSol> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.6442125" .
+<http://turismoloja.sbc/schema/data#PiedradelSol> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.0302003" .
 <http://turismoloja.sbc/schema/data#PiedradelSol> <http://schema.org/name> "Piedra del Sol" .
 <http://turismoloja.sbc/schema/data#PiedradelSol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#LagunasdeJimbura> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.712303" .
-<http://turismoloja.sbc/schema/data#LagunasdeJimbura> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.429837" .
+<http://turismoloja.sbc/schema/data#LagunasdeJimbura> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.429837" .
+<http://turismoloja.sbc/schema/data#LagunasdeJimbura> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.712303" .
 <http://turismoloja.sbc/schema/data#LagunasdeJimbura> <http://schema.org/name> "Lagunas de Jimbura" .
 <http://turismoloja.sbc/schema/data#LagunasdeJimbura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#Malacatos> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.258886" .
@@ -179,20 +172,20 @@
 <http://turismoloja.sbc/schema/data#CatedraldeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.996593" .
 <http://turismoloja.sbc/schema/data#CatedraldeLoja> <http://schema.org/name> "Catedral de Loja" .
 <http://turismoloja.sbc/schema/data#CatedraldeLoja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
-<http://turismoloja.sbc/schema/data#ParqueEcologicoOrillasdelZamora> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.975341" .
-<http://turismoloja.sbc/schema/data#ParqueEcologicoOrillasdelZamora> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.386753" .
+<http://turismoloja.sbc/schema/data#ParqueEcologicoOrillasdelZamora> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.386753" .
+<http://turismoloja.sbc/schema/data#ParqueEcologicoOrillasdelZamora> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.975341" .
 <http://turismoloja.sbc/schema/data#ParqueEcologicoOrillasdelZamora> <http://schema.org/name> "Parque Ecologico Orillas del Zamora" .
 <http://turismoloja.sbc/schema/data#ParqueEcologicoOrillasdelZamora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#PampasdeGuambona> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-80.11546" .
 <http://turismoloja.sbc/schema/data#PampasdeGuambona> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.11432" .
 <http://turismoloja.sbc/schema/data#PampasdeGuambona> <http://schema.org/name> "Pampas de Guambona" .
 <http://turismoloja.sbc/schema/data#PampasdeGuambona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#IglesiaMariaAuxiliadora> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9559514" .
-<http://turismoloja.sbc/schema/data#IglesiaMariaAuxiliadora> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "682563" .
+<http://turismoloja.sbc/schema/data#IglesiaMariaAuxiliadora> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.358204" .
+<http://turismoloja.sbc/schema/data#IglesiaMariaAuxiliadora> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.986967" .
 <http://turismoloja.sbc/schema/data#IglesiaMariaAuxiliadora> <http://schema.org/name> "Iglesia Maria Auxiliadora" .
 <http://turismoloja.sbc/schema/data#IglesiaMariaAuxiliadora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
-<http://turismoloja.sbc/schema/data#IglesiadeSanFrancisco> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9558600" .
-<http://turismoloja.sbc/schema/data#IglesiadeSanFrancisco> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699931" .
+<http://turismoloja.sbc/schema/data#IglesiadeSanFrancisco> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.201607" .
+<http://turismoloja.sbc/schema/data#IglesiadeSanFrancisco> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.994910" .
 <http://turismoloja.sbc/schema/data#IglesiadeSanFrancisco> <http://schema.org/name> "Iglesia de San Francisco" .
 <http://turismoloja.sbc/schema/data#IglesiadeSanFrancisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
 <http://turismoloja.sbc/schema/data#ParqueLaBanda> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.217634" .
@@ -207,12 +200,12 @@
 <http://turismoloja.sbc/schema/data#MuseodelasMadresConceptas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.997.228" .
 <http://turismoloja.sbc/schema/data#MuseodelasMadresConceptas> <http://schema.org/name> "Museo de las Madres Conceptas" .
 <http://turismoloja.sbc/schema/data#MuseodelasMadresConceptas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
-<http://turismoloja.sbc/schema/data#MuseodelBancoCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9558367" .
-<http://turismoloja.sbc/schema/data#MuseodelBancoCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699915" .
+<http://turismoloja.sbc/schema/data#MuseodelBancoCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.201526" .
+<http://turismoloja.sbc/schema/data#MuseodelBancoCentral> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.997259" .
 <http://turismoloja.sbc/schema/data#MuseodelBancoCentral> <http://schema.org/name> "Museo del Banco Central" .
 <http://turismoloja.sbc/schema/data#MuseodelBancoCentral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
-<http://turismoloja.sbc/schema/data#LeonDormido> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.620823" .
-<http://turismoloja.sbc/schema/data#LeonDormido> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.234707" .
+<http://turismoloja.sbc/schema/data#LeonDormido> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.234707" .
+<http://turismoloja.sbc/schema/data#LeonDormido> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.620823" .
 <http://turismoloja.sbc/schema/data#LeonDormido> <http://schema.org/name> "León Dormido" .
 <http://turismoloja.sbc/schema/data#LeonDormido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#PiscinaNaturalSC> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-80.109432" .
@@ -229,16 +222,14 @@
 <http://turismoloja.sbc/schema/data#BosqueprotectordeWashapamba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#IglesiaMatrizdeSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.237937" .
 <http://turismoloja.sbc/schema/data#IglesiaMatrizdeSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.622611" .
-<http://turismoloja.sbc/schema/data#IglesiaMatrizdeSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9599783" .
-<http://turismoloja.sbc/schema/data#IglesiaMatrizdeSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "695944" .
 <http://turismoloja.sbc/schema/data#IglesiaMatrizdeSaraguro> <http://schema.org/name> "Iglesia Matriz de Saraguro" .
 <http://turismoloja.sbc/schema/data#IglesiaMatrizdeSaraguro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
-<http://turismoloja.sbc/schema/data#RioCatamayo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.193991" .
-<http://turismoloja.sbc/schema/data#RioCatamayo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.658279" .
+<http://turismoloja.sbc/schema/data#RioCatamayo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.658279" .
+<http://turismoloja.sbc/schema/data#RioCatamayo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.193991" .
 <http://turismoloja.sbc/schema/data#RioCatamayo> <http://schema.org/name> "R�_o Catamayo" .
 <http://turismoloja.sbc/schema/data#RioCatamayo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#CerroColambo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.231429" .
-<http://turismoloja.sbc/schema/data#CerroColambo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.398419" .
+<http://turismoloja.sbc/schema/data#CerroColambo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.398419" .
+<http://turismoloja.sbc/schema/data#CerroColambo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.231429" .
 <http://turismoloja.sbc/schema/data#CerroColambo> <http://schema.org/name> "Cerro Colambo" .
 <http://turismoloja.sbc/schema/data#CerroColambo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#Vilcabamba> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.130" .
@@ -250,23 +241,23 @@
 <http://turismoloja.sbc/schema/data#BosquedeMarfilNatural> <http://schema.org/name> "Bosque de Marfil Natural" .
 <http://turismoloja.sbc/schema/data#BosquedeMarfilNatural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#BalnearioSanJose> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-80.110460" .
-<http://turismoloja.sbc/schema/data#BalnearioSanJose> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.120608 " .
+<http://turismoloja.sbc/schema/data#BalnearioSanJose> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.120608" .
 <http://turismoloja.sbc/schema/data#BalnearioSanJose> <http://schema.org/name> "Balneario San Jose" .
 <http://turismoloja.sbc/schema/data#BalnearioSanJose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 <http://turismoloja.sbc/schema/data#CalleLourdes> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.202323" .
 <http://turismoloja.sbc/schema/data#CalleLourdes> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.002402" .
 <http://turismoloja.sbc/schema/data#CalleLourdes> <http://schema.org/name> "Calle Lourdes" .
 <http://turismoloja.sbc/schema/data#CalleLourdes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
-<http://turismoloja.sbc/schema/data#IglesiadeSantoDomingo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9558223" .
-<http://turismoloja.sbc/schema/data#IglesiadeSantoDomingo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699883" .
+<http://turismoloja.sbc/schema/data#IglesiadeSantoDomingo> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.201335" .
+<http://turismoloja.sbc/schema/data#IglesiadeSantoDomingo> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.998381" .
 <http://turismoloja.sbc/schema/data#IglesiadeSantoDomingo> <http://schema.org/name> "Iglesia de Santo Domingo" .
 <http://turismoloja.sbc/schema/data#IglesiadeSantoDomingo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
 <http://turismoloja.sbc/schema/data#CondorWasi> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.431267" .
 <http://turismoloja.sbc/schema/data#CondorWasi> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.223507" .
 <http://turismoloja.sbc/schema/data#CondorWasi> <http://schema.org/name> "Condor Wasi" .
 <http://turismoloja.sbc/schema/data#CondorWasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#IglesiadeSanJuanDelValle> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9560057" .
-<http://turismoloja.sbc/schema/data#IglesiadeSanJuanDelValle> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699937" .
+<http://turismoloja.sbc/schema/data#IglesiadeSanJuanDelValle> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.201357" .
+<http://turismoloja.sbc/schema/data#IglesiadeSanJuanDelValle> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.981399" .
 <http://turismoloja.sbc/schema/data#IglesiadeSanJuanDelValle> <http://schema.org/name> "Iglesia de San Juan Del Valle" .
 <http://turismoloja.sbc/schema/data#IglesiadeSanJuanDelValle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
 <http://turismoloja.sbc/schema/data#CascadaLandara> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-80.14466" .
@@ -285,24 +276,24 @@
 <http://turismoloja.sbc/schema/data#ParqueBolivar> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.994.869" .
 <http://turismoloja.sbc/schema/data#ParqueBolivar> <http://schema.org/name> "Parque Bolívar" .
 <http://turismoloja.sbc/schema/data#ParqueBolivar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#BosqueProtectorJatumpamba-Jorupe> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.300190" .
-<http://turismoloja.sbc/schema/data#BosqueProtectorJatumpamba-Jorupe> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.807337" .
+<http://turismoloja.sbc/schema/data#BosqueProtectorJatumpamba-Jorupe> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.807337" .
+<http://turismoloja.sbc/schema/data#BosqueProtectorJatumpamba-Jorupe> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.300190" .
 <http://turismoloja.sbc/schema/data#BosqueProtectorJatumpamba-Jorupe> <http://schema.org/name> "Bosque Protector Jatumpamba-Jorupe" .
 <http://turismoloja.sbc/schema/data#BosqueProtectorJatumpamba-Jorupe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#BaձodelInca> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.643342" .
-<http://turismoloja.sbc/schema/data#BaձodelInca> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.234915" .
+<http://turismoloja.sbc/schema/data#BaձodelInca> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.234915" .
+<http://turismoloja.sbc/schema/data#BaձodelInca> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.643342" .
 <http://turismoloja.sbc/schema/data#BaձodelInca> <http://schema.org/name> "Baձo del Inca" .
 <http://turismoloja.sbc/schema/data#BaձodelInca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#TallerArtesanalComunidaddeLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9598167" .
-<http://turismoloja.sbc/schema/data#TallerArtesanalComunidaddeLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "695837" .
+<http://turismoloja.sbc/schema/data#TallerArtesanalComunidaddeLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.239099" .
+<http://turismoloja.sbc/schema/data#TallerArtesanalComunidaddeLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.624427" .
 <http://turismoloja.sbc/schema/data#TallerArtesanalComunidaddeLagunas> <http://schema.org/name> "Taller Artesanal Comunidad de Lagunas" .
 <http://turismoloja.sbc/schema/data#TallerArtesanalComunidaddeLagunas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
 <http://turismoloja.sbc/schema/data#CascadaVirgendelKaka> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.261029" .
 <http://turismoloja.sbc/schema/data#CascadaVirgendelKaka> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.6048576" .
 <http://turismoloja.sbc/schema/data#CascadaVirgendelKaka> <http://schema.org/name> "Cascada Virgen del Kaka" .
 <http://turismoloja.sbc/schema/data#CascadaVirgendelKaka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#OrfebreriadeLaComunidadLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9598952" .
-<http://turismoloja.sbc/schema/data#OrfebreriadeLaComunidadLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "695650" .
+<http://turismoloja.sbc/schema/data#OrfebreriadeLaComunidadLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.239027" .
+<http://turismoloja.sbc/schema/data#OrfebreriadeLaComunidadLagunas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.624319" .
 <http://turismoloja.sbc/schema/data#OrfebreriadeLaComunidadLagunas> <http://schema.org/name> "Orfebrería de La Comunidad Lagunas" .
 <http://turismoloja.sbc/schema/data#OrfebreriadeLaComunidadLagunas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
 <http://turismoloja.sbc/schema/data#LagunasdeSaraguallas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.3802" .
@@ -313,72 +304,65 @@
 <http://turismoloja.sbc/schema/data#LagunasdelCompadre> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.16543" .
 <http://turismoloja.sbc/schema/data#LagunasdelCompadre> <http://schema.org/name> "Lagunas del Compadre" .
 <http://turismoloja.sbc/schema/data#LagunasdelCompadre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#SantuariodeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9574606" .
-<http://turismoloja.sbc/schema/data#SantuariodeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "674956" .
+<http://turismoloja.sbc/schema/data#SantuariodeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.426453" .
+<http://turismoloja.sbc/schema/data#SantuariodeElCisne> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.851318" .
 <http://turismoloja.sbc/schema/data#SantuariodeElCisne> <http://schema.org/name> "Santuario de El Cisne" .
 <http://turismoloja.sbc/schema/data#SantuariodeElCisne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
-<http://turismoloja.sbc/schema/data#CerroAhuaca> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.309403" .
-<http://turismoloja.sbc/schema/data#CerroAhuaca> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.548771" .
+<http://turismoloja.sbc/schema/data#CerroAhuaca> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.548771" .
+<http://turismoloja.sbc/schema/data#CerroAhuaca> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.309403" .
 <http://turismoloja.sbc/schema/data#CerroAhuaca> <http://schema.org/name> "Cerro Ahuaca" .
 <http://turismoloja.sbc/schema/data#CerroAhuaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#Artesanias> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9527114" .
-<http://turismoloja.sbc/schema/data#Artesanias> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "673809" .
-<http://turismoloja.sbc/schema/data#Artesanias> <http://schema.org/name> "Artesanias" .
-<http://turismoloja.sbc/schema/data#Artesanias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
-<http://turismoloja.sbc/schema/data#IngenioMonterrey> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.975341" .
-<http://turismoloja.sbc/schema/data#IngenioMonterrey> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.386753" .
+<http://turismoloja.sbc/schema/data#IngenioMonterrey> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.386753" .
+<http://turismoloja.sbc/schema/data#IngenioMonterrey> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.975341" .
 <http://turismoloja.sbc/schema/data#IngenioMonterrey> <http://schema.org/name> "Ingenio Monterrey" .
 <http://turismoloja.sbc/schema/data#IngenioMonterrey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#PuenteInternacionalyRioMacarՍ> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9514741" .
-<http://turismoloja.sbc/schema/data#PuenteInternacionalyRioMacarՍ> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "615219" .
+<http://turismoloja.sbc/schema/data#PuenteInternacionalyRioMacarՍ> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.964145" .
+<http://turismoloja.sbc/schema/data#PuenteInternacionalyRioMacarՍ> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.391765" .
 <http://turismoloja.sbc/schema/data#PuenteInternacionalyRioMacarՍ> <http://schema.org/name> "Puente Internacional y Río MacarՍ" .
 <http://turismoloja.sbc/schema/data#PuenteInternacionalyRioMacarՍ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
-<http://turismoloja.sbc/schema/data#ParqueRecreacionalJipiro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.972020" .
-<http://turismoloja.sbc/schema/data#ParqueRecreacionalJipiro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.203531" .
+<http://turismoloja.sbc/schema/data#ParqueRecreacionalJipiro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.203531" .
+<http://turismoloja.sbc/schema/data#ParqueRecreacionalJipiro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.972020" .
 <http://turismoloja.sbc/schema/data#ParqueRecreacionalJipiro> <http://schema.org/name> "Parque Recreacional Jipiro" .
 <http://turismoloja.sbc/schema/data#ParqueRecreacionalJipiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#MonolitosdeQuillusara> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.100233" .
-<http://turismoloja.sbc/schema/data#MonolitosdeQuillusara> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.960620" .
+<http://turismoloja.sbc/schema/data#MonolitosdeQuillusara> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.960620" .
+<http://turismoloja.sbc/schema/data#MonolitosdeQuillusara> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.100233" .
 <http://turismoloja.sbc/schema/data#MonolitosdeQuillusara> <http://schema.org/name> "Monolitos de Quillusara" .
 <http://turismoloja.sbc/schema/data#MonolitosdeQuillusara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#IglesiaCatedral> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9558500" .
-<http://turismoloja.sbc/schema/data#IglesiaCatedral> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "699872" .
-<http://turismoloja.sbc/schema/data#IglesiaCatedral> <http://schema.org/name> "Iglesia Catedral" .
-<http://turismoloja.sbc/schema/data#IglesiaCatedral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
-<http://turismoloja.sbc/schema/data#EdificiodeIlincho> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9598835" .
-<http://turismoloja.sbc/schema/data#EdificiodeIlincho> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "695150" .
+
+<http://turismoloja.sbc/schema/data#EdificiodeIlincho> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.244844" .
+<http://turismoloja.sbc/schema/data#EdificiodeIlincho> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.629450" .
 <http://turismoloja.sbc/schema/data#EdificiodeIlincho> <http://schema.org/name> "Edificio de Ilincho" .
 <http://turismoloja.sbc/schema/data#EdificiodeIlincho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
-<http://turismoloja.sbc/schema/data#Moliendas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9565307" .
-<http://turismoloja.sbc/schema/data#Moliendas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "650909" .
+<http://turismoloja.sbc/schema/data#Moliendas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.556701" .
+<http://turismoloja.sbc/schema/data#Moliendas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.333430" .
 <http://turismoloja.sbc/schema/data#Moliendas> <http://schema.org/name> "Moliendas" .
 <http://turismoloja.sbc/schema/data#Moliendas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
 <http://turismoloja.sbc/schema/data#ParqueLinealLaTebaida> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.203.107" .
 <http://turismoloja.sbc/schema/data#ParqueLinealLaTebaida> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.017.711" .
 <http://turismoloja.sbc/schema/data#ParqueLinealLaTebaida> <http://schema.org/name> "Parque Lineal La Tebaida" .
 <http://turismoloja.sbc/schema/data#ParqueLinealLaTebaida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#JardinBotՍnicoReinaldoEspinoza> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.037074" .
-<http://turismoloja.sbc/schema/data#JardinBotՍnicoReinaldoEspinoza> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-79.198961" .
+<http://turismoloja.sbc/schema/data#JardinBotՍnicoReinaldoEspinoza> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.198961" .
+<http://turismoloja.sbc/schema/data#JardinBotՍnicoReinaldoEspinoza> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.037074" .
 <http://turismoloja.sbc/schema/data#JardinBotՍnicoReinaldoEspinoza> <http://schema.org/name> "Jardin BotՍnico Reinaldo Espinoza" .
 <http://turismoloja.sbc/schema/data#JardinBotՍnicoReinaldoEspinoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#UniversidadTecnicaParticulardeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9560200" .
-<http://turismoloja.sbc/schema/data#UniversidadTecnicaParticulardeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "700026" .
+<http://turismoloja.sbc/schema/data#UniversidadTecnicaParticulardeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.199352" .
+<http://turismoloja.sbc/schema/data#UniversidadTecnicaParticulardeLoja> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.987002" .
 <http://turismoloja.sbc/schema/data#UniversidadTecnicaParticulardeLoja> <http://schema.org/name> "Universidad Técnica Particular de Loja" .
 <http://turismoloja.sbc/schema/data#UniversidadTecnicaParticulardeLoja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
 <http://turismoloja.sbc/schema/data#CascadadelaBanda> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.409476" .
 <http://turismoloja.sbc/schema/data#CascadadelaBanda> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.237001" .
 <http://turismoloja.sbc/schema/data#CascadadelaBanda> <http://schema.org/name> "Cascada de la Banda" .
 <http://turismoloja.sbc/schema/data#CascadadelaBanda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#GranjaExperimentalDemostrativaLanzaca> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-4.229195" .
-<http://turismoloja.sbc/schema/data#GranjaExperimentalDemostrativaLanzaca> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> " -79.430938" .
+<http://turismoloja.sbc/schema/data#GranjaExperimentalDemostrativaLanzaca> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.430938" .
+<http://turismoloja.sbc/schema/data#GranjaExperimentalDemostrativaLanzaca> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-4.229195" .
 <http://turismoloja.sbc/schema/data#GranjaExperimentalDemostrativaLanzaca> <http://schema.org/name> "Granja Experimental Demostrativa Lanzaca" .
 <http://turismoloja.sbc/schema/data#GranjaExperimentalDemostrativaLanzaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
-<http://turismoloja.sbc/schema/data#IndumentariadeLaEtniaSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "9599746" .
-<http://turismoloja.sbc/schema/data#IndumentariadeLaEtniaSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "696075" .
+<http://turismoloja.sbc/schema/data#IndumentariadeLaEtniaSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.239535" .
+<http://turismoloja.sbc/schema/data#IndumentariadeLaEtniaSaraguro> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.623885" .
 <http://turismoloja.sbc/schema/data#IndumentariadeLaEtniaSaraguro> <http://schema.org/name> "Indumentaria de La Etnia Saraguro" .
 <http://turismoloja.sbc/schema/data#IndumentariadeLaEtniaSaraguro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
 <http://turismoloja.sbc/schema/data#BalnearioelArenal> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-79.98552" .
-<http://turismoloja.sbc/schema/data#BalnearioelArenal> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> " -3.96139         " .
+<http://turismoloja.sbc/schema/data#BalnearioelArenal> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-3.96139" .
 <http://turismoloja.sbc/schema/data#BalnearioelArenal> <http://schema.org/name> "Balneario el Arenal" .
 <http://turismoloja.sbc/schema/data#BalnearioelArenal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> .
 
@@ -7331,7 +7315,6 @@
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-comercial> <http://turismoloja.sbc/schema/hasDiscotheque> <http://www.disit.org/km4city/schema#Bar> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-comercial> <http://turismoloja.sbc/schema/hasBar> <http://www.disit.org/km4city/schema#Bar> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-comercial> <http://turismoloja.sbc/schema/exists> <http://dbpedia.org/ontology/Canton> .
-<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> <http://turismoloja.sbc/schema/hasNaturalEnviroment> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-natural> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> <http://turismoloja.sbc/schema/hasReligiousBuilding> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> <http://turismoloja.sbc/schema/hasHistoricalBuilding> <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> <http://turismoloja.sbc/schema/hasMuseum> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .

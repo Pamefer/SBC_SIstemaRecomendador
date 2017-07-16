@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById('myDIV');
+      if (x.style.display === 'none' ) {
+          x.style.display = 'block';
+      } else {
+          x.style.display = 'none';
+      }
+    }
+      function myFunction2() {
+        var x2 = document.getElementById('myDIV2');
+        if (x2.style.display === 'none' ) {
+            x2.style.display = 'block';
+        } else {
+            x2.style.display = 'none';
+        }
+      }
+      function myFunction3() {
+      var x3 = document.getElementById('myDIV3');
+      if (x3.style.display === 'none' ) {
+          x3.style.display = 'block';
+      } else {
+          x3.style.display = 'none';
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <button onclick="myFunction()">Click Me 1</button>
+    <button onclick="myFunction2()">Click Me 2</button>
+    <button onclick="myFunction3()">Click Me 3</button>
+
+    <div id="myDIV" style="display:none">
+      UNO.
+    </div>
+    <div id="myDIV2" style="display:none">
+      DOS.
+    </div>
+    <div id="myDIV3" style="display:none">
+      TRES.
+    </div>
+  </body>
+</html>
