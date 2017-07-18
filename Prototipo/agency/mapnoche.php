@@ -1,27 +1,41 @@
-<?php 
-extract($_GET); 
+<?php
+extract($_GET);
 require_once( "sparqllib.php" );
 ?>
-<?php 
-
+<?php
   //Realizamos la consulta a la tabla correspondiente
- 
-       $datos2=array();
-              $data2 = sparql_get( "http://localhost:8890/sparql","select ?recurso ?a ?lat ?long ?nombre where {<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ?b ?c.
-filter(regex(?c, 'http://idi.fundacionctic.org/cruzar/turismo#' )).
-?recurso <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?c.
-?recurso <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat.
-?recurso <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long.
-?recurso <http://schema.org/name> ?nombre.
-?c <http://dbpedia.org/ontology/label> ?a
-filter(regex(?recurso, '$trans' ))}" );
-$marker_pintar = ""; 
-              foreach( $data2 as $row )
+                  $datos2=array();
+                  $data2 = sparql_get( "http://localhost:8890/sparql","select ?recurso ?a ?lat ?long ?nombre where {<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ?b ?c.
+                  filter(regex(?c, 'http://idi.fundacionctic.org/cruzar/turismo#' )).
+                  ?recurso <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?c.
+                  ?recurso <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat.
+                  ?recurso <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long.
+                  ?recurso <http://schema.org/name> ?nombre.
+                  ?c <http://dbpedia.org/ontology/label> ?a
+                  filter(regex(?recurso, '$trans' ))}" );
+                  $marker_pintar = "";
+                    foreach( $data2 as $row )
                         {
-                                        
                         $datos2[]=array("nombre"=>$row["nombre"]);
                          $marker_pintar .= "['".$row["recurso"]."','".$row["lat"]."','".$row["long"]."','".$row["nombre"]."','".$row["a"]."'],";
-                      }                         
+                      }
+
+                      //Consulta rating
+                        $datos1=array();
+                        $datos11=array();
+                          $data2 = sparql_get( "http://localhost:8890/sparql","select ?recurso ?c ?nombre where {<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ?b ?c.
+            filter(regex(?c, 'http://idi.fundacionctic.org/cruzar/turismo#' )).
+            ?recurso <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?c.
+
+            ?recurso <http://schema.org/name> ?nombre.
+
+                    }      " );
+                        foreach( $data2 as $row )
+                                  {
+
+                                  $datos1[]=array("nombre"=>$row["nombre"]);
+                                   $datos11[]=array("recurso"=>$row["recurso"]);
+                                }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,147 +43,44 @@ $marker_pintar = "";
 <head>
 
     <meta charset="utf-8">
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Turismo</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
-    <![endif]-->
     <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
       #map {
         height: 80%;
-        width: 50%;
-        margin-left: 20%;
-
-
+        width: 30%;
       }
-      /* Optional: Makes the sample page fill the window. */
       html, body {
         height:100%;
         margin: 0;
         padding: 0;
       }
-      #nav{
-        background: black;
-        padding-top: -4%;
-        margin-bottom: -10%;
-      }
+
     </style>
 
 </head>
 
-<body id="page-top" class="index">
+<body >
 
-       <nav id="nav" class="navbar navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                
-                <a class="navbar-brand page-scroll" href="#page-top">System recommender - Loja Tourism</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div >
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="lugar.php">Buscar Lugar - Actividad</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="momento.php">Lo del Momento</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Ellos recomiendan</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="mapnoche.php">Te puede interesar</a>
-                    </li>
-                    <li>
-                       <form action="bus.php" method="POST">
-<input type="text" id="keywords" name="keywords" size="15" maxlength="15">
-<input type="submit" name="search" id="search" value="Buscar">
-</form>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="sparql.php">Sparql</a>
-                    </li>
-                </ul>
-            </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <br><br><br><br><br><br><br><br>
-<h3>Mapa de Lugares Turísticos</h3>
-
-      <?php 
-        
-             $datos1=array();
-              $datos11=array();
-              $data2 = sparql_get( "http://localhost:8890/sparql","select ?recurso ?c ?nombre where {<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ?b ?c.
-filter(regex(?c, 'http://idi.fundacionctic.org/cruzar/turismo#' )).
-?recurso <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?c.
-
-?recurso <http://schema.org/name> ?nombre.
-
-          }      " );
-              foreach( $data2 as $row )
-                        {
-                                           
-                        $datos1[]=array("nombre"=>$row["nombre"]);
-                         $datos11[]=array("recurso"=>$row["recurso"]);
-                      }                       
-            ?>
-             
-                    
-                    <br>
           <form>
-    <select   class="form-control" action="action" name="trans" placeholder="Elije una ruta" onchange="this.form.submit()"  >
-             <option value="<?php echo $trans?>" ><?php echo $datos2[0]["nombre"] ?></option>
-    
-
-    <?php  foreach($datos1 as $x => $x_value) {?> 
-    <option value="<?php echo $datos11[$x]["recurso"]?>"> <?php echo ($datos1[$x]["nombre"]);?>
-  <?php     };?>
-        </option>
-      </select>
-      <br><br>
-      </form>
-
-<br><br><br>
-
-
+              <select   class="form-control" action="action" name="trans" placeholder="Elije una ruta" onchange="this.form.submit()"  >
+                <option value="<?php echo $trans?>" ><?php echo $datos2[0]["nombre"] ?></option>
+                <?php  foreach($datos1 as $x => $x_value) {?>
+                <option value="<?php echo $datos11[$x]["recurso"]?>"> <?php echo ($datos1[$x]["nombre"]);?>
+                <?php     };?>
+                </option>
+            </select>
+          </form>
 
     <div id="map">
     <script>
-var locations = [ <?php echo $marker_pintar; ?>];
+      var locations = [ <?php echo $marker_pintar; ?>];
       function initMap() {
         var marker, i
-        // Styles a map in night mode.
-
         var myLatLng = {lat: -4.120608, lng: -80.110460};
         var map = new google.maps.Map(document.getElementById('map'), {
           center: myLatLng,
@@ -255,11 +166,6 @@ var locations = [ <?php echo $marker_pintar; ?>];
             }
           ]
         });
-       // var marker = new google.maps.Marker({
-        //  position: myLatLng,
-         // map: map,
-         // title: 'Hello World!'
-       // });
        setMarkers(map,locations)
       }
 
@@ -268,31 +174,31 @@ var locations = [ <?php echo $marker_pintar; ?>];
       var marker, i
 
       for (i = 0; i < locations.length; i++)
-       {  
+       {
            var loan = locations[i][0]
            var lat = locations[i][1]
            var long = locations[i][2]
            var add =  locations[i][3]
            var tipo =  locations[i][4]
            console.log(lat)
-           
+
 
            latlngset = new google.maps.LatLng(lat, long);
 
-            var marker = new google.maps.Marker({  
-                map: map, title: add , position: latlngset  
+            var marker = new google.maps.Marker({
+                map: map, title: add , position: latlngset
             });
             map.setCenter(marker.getPosition())
             var content = "Nombre : " + add +  '</h3>' +'<br>'+ "Coordenadas: " + long  +   " , " +lat+'<br>'+ "Recurso: "+tipo
 
             var infowindow = new google.maps.InfoWindow()
 
-            google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){ 
+            google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){
                 return function() {
                     infowindow.setContent(content);
                      infowindow.open(map,marker);
                 };
-            })(marker,content,infowindow)); 
+            })(marker,content,infowindow));
 
        }
   }
@@ -300,11 +206,5 @@ var locations = [ <?php echo $marker_pintar; ?>];
 </div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgDkVqIMYa2fLVyHujrOvRMysDydEBHNk&callback=initMap"
     async defer></script>
-
-
-
-
   </body>
 </html>
-
-

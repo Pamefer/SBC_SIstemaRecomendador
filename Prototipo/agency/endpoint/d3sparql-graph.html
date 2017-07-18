@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--<script src="lib/d3/d3.v3.min.js"></script>
+    <script src="d3-master/d3.min.js"></script>-->
+    <script src="d3sparql.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+
+    <script>
+    function exec() {
+      var endpoint = d3.select("#endpoint").property("value")
+      var sparql = d3.select("#sparql").property("value")
+      d3sparql.query(endpoint, sparql, render)
+    }
+    function render(json) {
+      var config = {
+        "charge": -500,
+        "distance": 50,
+        "width": 1350,
+        "height": 750,
+        "selector": "#result"
+      }
+      console.log(json);
+      d3sparql.forcegraph(json, config)
+    }
+
+    function exec_offline() {
+      d3.json("cache/dbpedia/proglang_pair.json", render)
+    }
+    function toggle() {
+      d3sparql.toggle()
+    }
+    </script>
+
+
+    <style type="text/css">
+    h1{
+      text-align: center;
+    }
+    #query{
+      text-align: center;
+    }
+    body{
+      background-image: url("http://img.wallpaperstock.net:81/gray-m%C3%ADnima-degradado-de-blanco-a-wallpapers_33797_1920x1200.jpg");
+    }
+    input{
+      background: #E2E3E5;
+      width: 33%;
+    }
+    textarea{
+      width:50%;height:200px;border: 2px solid #990000;
+      background: #E2E3E5;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="query" style="margin: 10px">
+      <h2>DESASTRES NATURALES ECUADOR</h2>
+      <form class="form-inline">
+        <label>SPARQL ENPOINT:</label>
+        <div class="input-append">
+          <input id="endpoint" class="span5" value="http://localhost:8890/sparql" type="text">
+          <button class="btn" type="button" onclick="exec()">Query</button>
+          <button class="btn" type="button" onclick="exec_offline()">Use cache</button>
+          <button class="btn" type="button" onclick="toggle()"><i id="button" class="icon-chevron-up"></i>Hide</button>
+        </div>
+      </form>
+      <textarea id="sparql" class="span9" rows=15>
+      SELECT DISTINCT ?x ?o
+      WHERE {
+       ?x a <http://observedchange.com/moac/ns#Floods>; <http://dbpedia.org/ontology/province> ?o FILTER(regex(?o, "Esmeraldas")) .
+      } 
+      </textarea>
+    </div>
+    <div id="result"></div>
+  </body>
+</html>

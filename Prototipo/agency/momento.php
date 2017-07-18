@@ -3,7 +3,7 @@
 
 <head>
 
-    <meta charset="utf-8"><meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -42,6 +42,9 @@
 
 
       }
+      div#resul{
+        margin: 0px 120px 30px 120px;
+      }
 
       #tabla{
         margin-left: 10%;
@@ -59,52 +62,59 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                
+
                 <a class="navbar-brand page-scroll" href="#page-top">System recommender - Loja Tourism</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-           <div >
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="lugar.php">Buscar Lugar - Actividad</a>
-                    </li>
+            <div style="text-align:right;" >
+                <ul class="nav navbar-nav navbar-left">
+
                     <li>
                         <a class="page-scroll" href="momento.php">Lo del Momento</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Ellos recomiendan</a>
+
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recursos<b class="caret"></b></a>
+                        <ul class="dropdown-menu" style="background-color:#2e2e2e">
+                          <li class="active"><a href="recursoHotelero.php">Recurso Hotelero</a></li>
+                          <li ><a href="recursoComercial.php">Recurso Comercial</a></li>
+                          <li ><a href="recursoTuristico.php">Recurso Turístico</a></li>
+                         </ul>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="mapnoche.php">Te puede interesar</a>
-                    </li>
-                    <li>
-                       <form action="bus.php" method="POST">
-<input type="text" id="keywords" name="keywords" size="15" maxlength="15" minlength="4">
-<input type="submit" name="search" id="search" value="Buscar">
-</form>
-                    </li>
+
                     <li>
                         <a class="page-scroll" href="sparql.php">Sparql</a>
                     </li>
+
+                </ul>
+                <ul >
+                  <div id=cajon class="col-lg-3">
+                    <form action="bus.php" method="POST">
+                      <div  class="input-group">
+                        <span class="input-group-btn">
+                          <button  type="submit" name="search" id="search" class="btn btn-default" type="button" >Buscar</button>
+                        </span>
+                        <input type="text" class="form-control" id="keywords" name="keywords" size="15" maxlength="30" minlength="4"  placeholder="Search for...">
+                      </div><!-- /input-group -->
+                      </form>
+                      </div><!-- /.row -->
                 </ul>
             </div>
+
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
     <!-- Header -->
-<br><br><br><br><br><br><br><br><br><br>
-<h3>Ultimos Tweets</h3>
+
+    <section id="bloqueind">
+    <h3 style="text-align:center">Ultimos Tweets</h3>
 
     <!-- Portfolio Grid Section -->
 
             <?php
-mb_internal_encoding('UTF-8');
-mb_http_output('UTF-8');
+
 require_once( "sparqllib.php" );
 
 $db = sparql_connect( "http://localhost:8890/sparql" );
@@ -115,14 +125,14 @@ sparql_ns( "foaf","http://xmlns.com/foaf/0.1/" );
 #sparql_ns("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
 
 $sparql = "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT  ?date ?des WHERE   { ?x <http://schema.org/datepublished> ?date .
-FILTER (?date > '2017-05-20'^^xsd:time).
-?x   <http://schema.org/description>   ?des }";
-$result = sparql_query( $sparql ); 
+SELECT  ?Fecha ?Descripcion WHERE   { ?x <http://schema.org/datepublished> ?Fecha .
+FILTER (?Fecha > '2017-05-20'^^xsd:time).
+?x   <http://schema.org/description>   ?Descripcion }";
+$result = sparql_query( $sparql );
 $fields = sparql_field_array( $result );
-
-
-print "<p>Number of rows: ".sparql_num_rows( $result )." results.</p>";
+print "<div id='resul' class='alert alert-success' role='alert'>";
+print "<a href='' class='alert-link'>Se han encontrado ".sparql_num_rows( $result )." tweets</a>";
+print "</div>";
 print "<table id='tabla' border=1>";
 print "<tr>";
 foreach( $fields as $field )
@@ -135,29 +145,22 @@ while( $row = sparql_fetch_array( $result ) )
     print "<tr>";
     foreach( $fields as $field )
     {
+      if ($row[$field]!="es") {
+        echo utf8_decode("<td>.$row[$field].</td>");
 
-        if ($row[$field]!= "es") {
-            if ($row[$field]!= "Desde Loja") {
-       
-                    echo utf8_decode("<td>".$row[$field]."</td>");
-                
-                
-            }
-        }
-       
-
+      }
     }
     print "</tr>";
 }
 print "</table>";
 ?>
-        
+
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-  
+
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 

@@ -13,6 +13,9 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilos.css" rel="stylesheet">
+        <script src="../release/go.js"></script>
+
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,49 +26,50 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
-    <![endif]-->
-
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script>
+    function show(shown, hidden) {
+      document.getElementById(shown).style.display='block';
+      document.getElementById(hidden).style.display='none';
+      return false;
+    }
+    </script>
 </head>
 
-<body id="page-top" class="index">
+
+<body id="page-top" class="index" onload="init()">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">System recommender - Loja Tourism</a>
+
+                <a class="navbar-brand page-scroll" href="index.php">System recommender - Loja Tourism</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div >
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+
                     <li>
-                        <a class="page-scroll" href="#services">Buscar Lugar - Actividad</a>
+                        <a class="page-scroll" href="momento.php">Lo del Momento</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Lo del Momento</a>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recursos<b class="caret"></b></a>
+                        <ul class="dropdown-menu" style="background-color:#2e2e2e">
+                          <li class="active"><a href="recursoHotelero.php">Recurso Hotelero</a></li>
+                          <li ><a href="recursoComercial.php">Recurso Comercial</a></li>
+                          <li ><a href="recursoTuristico.php">Recurso Turístico</a></li>
+                         </ul>
                     </li>
+
                     <li>
-                        <a class="page-scroll" href="#about">Ellos recomiendan</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Te puede interesar</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Login</a>
+                        <a class="page-scroll" href="sparql.php">Sparql</a>
                     </li>
                 </ul>
             </div>
@@ -88,499 +92,218 @@
     <!-- Services Section -->
     <section id="services">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Buscar Lugar</h2>
-                    <h3 class="section-subheading text-muted">Selecciona un tipo de recurso turistico.</h3>
+            <div id="buscador" class="row">
+                <div id=bu class="col-lg-8 text-right">
+
+                    <h2 align="left" class="section-heading">Buscar Lugar</h2>
+                    <h3 align="left" class="section-subheading text-muted">Selecciona un tipo de recurso turistico.</h3>
+
+                  </div>
+                  <div id=cajon class="col-lg-4 text-left">
+                    <form action="bus.php" method="POST">
+                      <div  class="input-group">
+                        <span class="input-group-btn">
+                          <button  type="submit" name="search" id="search" class="btn btn-default" type="button" >Buscar</button>
+                        </span>
+                        <input type="text" class="form-control" id="keywords" name="keywords" size="15" maxlength="30" minlength="4" placeholder="Search for...">
+                      </div><!-- /input-group -->
+                      </form>
+                      </div><!-- /.row -->
+                  </div>
                 </div>
-            </div>
-            <div class="row text-center">
-            	<a href="">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Comercial</h4>
-                    <p class="text-muted">Restauratnes - Cafeterías - Bares - Discotecas</p>
-                </div>
-                </a>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-car fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Turistico</h4>
-                    <p class="text-muted">Museo - Entorno Natural - Iglesias - Edificios historicos</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-hotel fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Hotelero</h4>
-                    <p class="text-muted">Hotel - Hostal.</p>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Lo del Momento</h2>
-                    <h3 class="section-subheading text-muted">Esto es lo más sonado este día en Loja</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="" width="400" height="400">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Puerta de la Ciudad</h4>
-                        <p class="text-muted">Lugar Turístico</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="" width="400"  height="400">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Parque Jipiro</h4>
-                        <p class="text-muted">Lugar Turístico</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="" width="400"  height="400">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Iglesia Catedral</h4>
-                        <p class="text-muted">Lugar Turístico</p>
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Ellos Recomiendad</h2>
-                    <h3 class="section-subheading text-muted">Lo más popular en Loja.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/11.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2017-Mayo</h4>
-                                    <h4 class="subheading">Parque Eólico</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/12.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2017-Febrero</h4>
-                                    <h4 class="subheading">Guayacanes de Zapotillo</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/13.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2017-Mayo</h4>
-                                    <h4 class="subheading">Tamal Lojano</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/14.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2017-Mayo</h4>
-                                    <h4 class="subheading">Rosso Bar</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>
-                                    <br>Ver más
-                                    <br></h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="bloque">
+  <nav id="izq" class="navbar navbar-default sidebar" role="navigation">
+  <div class="container-fluid">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="recursoHotelero.php">Recurso Hotelero<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+      <li ><a href="recursoComercial.php">Recurso Comercial<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>
+      <li ><a href="recursoTuristico.php">Recurso Turístico<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+<div id="sample">
+  <div id="myDiagramDiv" style="background-color: white; border: solid 1px; border-color: red; width: 100%; height: 600px"></div>
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Te puede interesar</h2>
-                    <h3 class="section-subheading text-muted">Estos son los próximos eventos más sonados.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Fiestas de Septiembre</h4>
-                        <p class="text-muted">Septiembre - 11</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Orquesta Sinfónica</h4>
-                        <p class="text-muted">Mayo - 30</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Rally</h4>
-                        <p class="text-muted">Junio - 3</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                
-            </div>
-        </div>
-    </section>
+</div>
+</section>
 
-    <!-- Clients Aside -->
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
-
-   
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
-
-    <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+    <script id="code">
+      // This variation on ForceDirectedLayout does not move any selected Nodes
+      // but does move all other nodes (vertexes).
+      function ContinuousForceDirectedLayout() {
+        go.ForceDirectedLayout.call(this);
+        this._isObserving = false;
+      }
+      go.Diagram.inherit(ContinuousForceDirectedLayout, go.ForceDirectedLayout);
 
+      /** @override */
+      ContinuousForceDirectedLayout.prototype.isFixed = function(v) {
+        return v.node.isSelected;
+      }
+
+      // optimization: reuse the ForceDirectedNetwork rather than re-create it each time
+      /** @override */
+      ContinuousForceDirectedLayout.prototype.doLayout = function(coll) {
+        if (!this._isObserving) {
+          this._isObserving = true;
+          // cacheing the network means we need to recreate it if nodes or links have been added or removed or relinked,
+          // so we need to track structural model changes to discard the saved network.
+          var lay = this;
+          this.diagram.addModelChangedListener(function (e) {
+            // modelChanges include a few cases that we don't actually care about, such as
+            // "nodeCategory" or "linkToPortId", but we'll go ahead and recreate the network anyway.
+            // Also clear the network when replacing the model.
+            if (e.modelChange !== "" ||
+                (e.change === go.ChangedEvent.Transaction && e.propertyName === "StartingFirstTransaction")) {
+              lay.network = null;
+            }
+          });
+        }
+        var net = this.network;
+        if (net === null) {  // the first time, just create the network as normal
+          this.network = net = this.makeNetwork(coll);
+        } else {  // but on reuse we need to update the LayoutVertex.bounds for selected nodes
+          this.diagram.nodes.each(function (n) {
+            var v = net.findVertex(n);
+            if (v !== null) v.bounds = n.actualBounds;
+          });
+        }
+        // now perform the normal layout
+        go.ForceDirectedLayout.prototype.doLayout.call(this, coll);
+        // doLayout normally discards the LayoutNetwork by setting Layout.network to null;
+        // here we remember it for next time
+        this.network = net;
+      }
+      // end ContinuousForceDirectedLayout
+
+
+      function init() {
+        if (window.goSamples) goSamples();  // init for these samples -- you don't need to call this
+        var $ = go.GraphObject.make;  // for conciseness in defining templates
+
+        myDiagram =
+          $(go.Diagram, "myDiagramDiv",  // must name or refer to the DIV HTML element
+            {
+              initialAutoScale: go.Diagram.Uniform,  // an initial automatic zoom-to-fit
+              contentAlignment: go.Spot.Center,  // align document to the center of the viewport
+              layout:
+                $(ContinuousForceDirectedLayout,  // automatically spread nodes apart while dragging
+                  { defaultSpringLength: 30, defaultElectricalCharge: 100 }),
+              // do an extra layout at the end of a move
+              "SelectionMoved": function(e) { e.diagram.layout.invalidateLayout(); }
+            });
+
+        // dragging a node invalidates the Diagram.layout, causing a layout during the drag
+        myDiagram.toolManager.draggingTool.doMouseMove = function() {
+          go.DraggingTool.prototype.doMouseMove.call(this);
+          if (this.isActive) { this.diagram.layout.invalidateLayout(); }
+        }
+
+        // define each Node's appearance
+        myDiagram.nodeTemplate =
+          $(go.Node, "Auto",  // the whole node panel
+            // define the node's outer shape, which will surround the TextBlock
+            $(go.Shape, "Circle",
+              { fill: "Gold", stroke: "black", spot1: new go.Spot(0, 0, 1, 1), spot2: new go.Spot(1, 1, -5, -5) }),
+            $(go.TextBlock,
+              { font: "bold 10pt helvetica, bold arial, sans-serif", textAlign: "center", maxSize: new go.Size(100, NaN) },
+              new go.Binding("text", "text"))
+          );
+        // the rest of this app is the same as samples/conceptMap.html
+
+        // replace the default Link template in the linkTemplateMap
+        myDiagram.linkTemplate =
+          $(go.Link,  // the whole link panel
+            $(go.Shape,  // the link shape
+              { stroke: "black" }),
+            $(go.Shape,  // the arrowhead
+              { toArrow: "standard", stroke: "black" }),
+            $(go.Panel, "Auto",
+              $(go.Shape,  // the label background, which becomes transparent around the edges
+                { fill: $(go.Brush, "Radial", { 0: "rgb(240, 240, 240)", 0.3: "rgb(240, 240, 240)", 1: "rgba(240, 240, 240, 0)" }),
+                  stroke: null }),
+              $(go.TextBlock,  // the label text
+                { textAlign: "center",
+                  font: "11pt helvetica, arial, sans-serif",
+                  stroke: "#555555",
+                  margin: 4 },
+                new go.Binding("text", "text"))
+            )
+          );
+
+        // create the model for the concept map
+        var nodeDataArray = [
+          { key: 1, text: "Provincia" },
+          { key: 2, text: "Canton" },
+          { key: 3, text: "Evento" },
+          { key: 4, text: "User Tweet" },
+          { key: 5, text: "Recurso Hotelero" },
+          { key: 6, text: "Recurso Comercial" },
+          { key: 7, text: "Recuros Turistico" },
+          { key: 8, text: "Hotel" },
+          { key: 9, text: "Hostal" },
+          { key: 10, text: "Bar" },
+          { key: 11, text: "Cafeteria" },
+          { key: 12, text: "Discotheque" },
+          { key: 13, text: "Restaurant" },
+          { key: 14, text: "Museo" },
+          { key: 15, text: "Entorno natural" },
+          { key: 16, text: "Edificio historico" },
+          { key: 17, text: "Edificio religioso" },
+
+        ];
+        var linkDataArray = [
+          { from: 1, to: 2, text: "dbo:province" },
+          { from: 2, to: 5, text: "swpo:location" },
+          { from: 2, to: 6, text: "swpo:location" },
+          { from: 2, to: 7, text: "swpo:location" },
+          { from: 4, to: 5, text: "schema:about" },
+          { from: 4, to: 6, text: "schema:about" },
+          { from: 4, to: 7, text: "schema:about" },
+          { from: 7, to: 14, text: "sbc:hasMuseum" },
+          { from: 7, to: 15, text: "sbc:hasNaturalEnviroment" },
+          { from: 7, to: 16, text: "sbc:hasHistoricalBuilding" },
+          { from: 7, to: 17, text: "sbc:hasReligiousBuilding" },
+          { from: 5, to: 8, text: "sbc:hasHotel" },
+          { from: 5, to: 9, text: "sbc:hasHostal" },
+          { from: 6, to: 10, text: "sbc:hasBar" },
+          { from: 6, to: 11, text: "sbc:hasCafeteria" },
+          { from: 6, to: 12, text: "sbc:hasDiscotheque" },
+          { from: 6, to: 13, text: "sbc:hasRestaurant" },
+          { from: 4, to: 3, text: "schema:description" }
+        ];
+        myDiagram.model = new go.GraphLinksModel(nodeDataArray, linkDataArray);
+      }
+
+      function reload() {
+        //myDiagram.layout.network = null;
+        var text = myDiagram.model.toJson();
+        myDiagram.model = go.Model.fromJson(text);
+        //myDiagram.layout =
+        //  go.GraphObject.make(ContinuousForceDirectedLayout,  // automatically spread nodes apart while dragging
+        //    { defaultSpringLength: 30, defaultElectricalCharge: 100 });
+      }
+    </script>
 </body>
 
 </html>

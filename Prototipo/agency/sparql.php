@@ -23,24 +23,56 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <script src="d3sparql.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link href="css/estilos.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
-    <![endif]-->
-
-</head>
     <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
+
+    text.node {
+      font-family: "sans-serif";
+      font-size: 15px;
+    }
+    circle.node {
+      stroke-width: 1px;
+      fill: #DAA520;
+    }
+
+
+    </style>
+
+    <script type="text/javascript">
+      function exec() {
+        var endpoint = d3.select("#endpoint").property("value")
+        var sparql = d3.select("#sparql").property("value")
+        d3sparql.query(endpoint, sparql, render)
+      }
+      function render(json) {
+        var config = {
+          "charge": -300,
+          "distance": 500,
+          "width": 1500,
+          "height": 1000,
+          "selector": "#result"
+        }
+        console.log(json);
+        d3sparql.forcegraph(json, config)
+      }
+
+      function exec_offline() {
+        d3.json("cache/dbpedia/proglang_pair.json", render)
+      }
+      function toggle() {
+        d3sparql.toggle()
+      }
+
+    </script>
+    <style>
+
       #nav{
         background: black;
         padding-top: -4%;
         margin-bottom: -10%;
-
-
       }
 
       #tabla{
@@ -56,101 +88,110 @@
       td{
 width: 30%;
       }
+
+
+        h1{
+          text-align: center;
+        }
+
+        input{
+          background: #E2E3E5;
+          width: 33%;
+        }
+        textarea{
+          width:100%;height:200px;border: 2px solid #990000;
+          background: #E2E3E5;
+        }
+
     </style>
+
+</head>
+
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav id="nav" class="navbar navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                
-                <a class="navbar-brand page-scroll" href="#page-top">System recommender - Loja Tourism</a>
-            </div>
+  <!-- Navigation -->
+  <nav id="nav" class="navbar navbar-custom navbar-fixed-top">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-       <div >
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="lugar.php">Buscar Lugar - Actividad</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="momento.php">Lo del Momento</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Ellos recomiendan</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="mapnoche.php">Te puede interesar</a>
-                    </li>
-                    <li>
-                       <form action="bus.php" method="POST">
-<input type="text" id="keywords" name="keywords" size="15" maxlength="15">
-<input type="submit" name="search" id="search" value="Buscar">
-</form>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="sparql.php">Sparql</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <br><br><br><br><br><br><br><br><br>
+              <a class="navbar-brand page-scroll" href="index.php">System recommender - Loja Tourism</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div style="text-align:right;" >
+              <ul class="nav navbar-nav navbar-left">
+
+                  <li>
+                      <a class="page-scroll" href="momento.php">Lo del Momento</a>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recursos<b class="caret"></b></a>
+                      <ul class="dropdown-menu" style="background-color:#2e2e2e">
+                        <li class="active"><a href="recursoHotelero.php">Recurso Hotelero</a></li>
+                        <li ><a href="recursoComercial.php">Recurso Comercial</a></li>
+                        <li ><a href="recursoTuristico.php">Recurso Turístico</a></li>
+                       </ul>
+                  </li>
+
+                  <li>
+                      <a class="page-scroll" href="sparql.php">Sparql</a>
+                  </li>
+
+              </ul>
+              <ul >
+                <div id=cajon class="col-lg-3">
+                  <form action="bus.php" method="POST">
+                    <div  class="input-group">
+                      <span class="input-group-btn">
+                        <button  type="submit" name="search" id="search" class="btn btn-default" type="button" >Buscar</button>
+                      </span>
+                      <input type="text" class="form-control" id="keywords" name="keywords" size="15" maxlength="30" minlength="4"  placeholder="Search for...">
+                    </div><!-- /input-group -->
+                    </form>
+                    </div><!-- /.row -->
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+  </nav>
+<section id="bloqueind">
+    <div id="result"></div>
+  <div id="query" style="margin: 10px">
+  <form class="form-inline"  method="POST">
+    <label>Ingresa tu consulta SPARQL:</label>
+    <div class="input-append">
+      <input type="hidden" id="endpoint" name="endpoint" class="span5" value="http://localhost:8890/sparql" type="text">
+      <button class="btn" name="search" type="button" onclick="exec()">Buscar</button>
+      <button class="btn" type="button" onclick="toggle()"><i id="button" class="icon-chevron-up"></i>Esconder/Mostrar</button>
+
+    </div>
+  </form>
+  <textarea id="sparql" class="span9" rows=15>
+    </textarea>
 
 
- <h3>Ingresa tu busqueda avanzada</h3>
- <form action="sparql.php" method="POST">
-<input type="text" id="keywords" name="keywords" size="90" maxlength="500">
-<input type="submit" name="search" id="search" value="Buscar">
-<?php
-//Si se ha pulsado el botón de buscar
-if (isset($_POST['search'])) {
-    //Recogemos las claves enviadas
-    $keywords = $_POST['keywords'];
-   
-}
-?>
 
-<?php
+  </div>
 
-require_once( "sparqllib.php" );
+</section>
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
 
-$db = sparql_connect( "http://localhost:8890/sparql" );
-if( !$db ) { print sparql_errno() . ": " . sparql_error(). "\n"; exit; }
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-sparql_ns( "foaf","http://xmlns.com/foaf/0.1/" );
-#sparql_ns("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
-#sparql_ns("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
-$sparql = "$keywords limit 100";
-#$sparql = "SELECT ?a WHERE { ?x <http://schema.org/name> ?a FILTER regex(?a, "museo")}"
-$result = sparql_query( $sparql ); 
-$fields = sparql_field_array( $result );
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
 
-print "<p>Number of rows: ".sparql_num_rows( $result )." results.</p>";
-print "<table id='tabla' border=1>";
-print "<tr>";
-foreach( $fields as $field )
-{
-    print "<th>$field</th>";
-}
-print "</tr>";
-while( $row = sparql_fetch_array( $result ) )
-{
-    print "<tr>";
-    foreach( $fields as $field )
-    {
-        print "<td>$row[$field]</td>";
-        
-    }
-    print "</tr>";
-}
-print "</table>";
+<!-- Theme JavaScript -->
+<script src="js/agency.min.js"></script>
 
-?>
+</body>
+</html>

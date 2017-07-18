@@ -72,19 +72,5 @@ print "</table>";
 #Ver todos las categorias
 #select distinct ?Recursos where {[] a ?Recursos} 
 
-
-#Ver todos los recursos turisticos
-#select ?b ?c where {<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ?b ?c.
-#filter(regex(?c, 'http://idi.fundacionctic.org/cruzar/turismo#' ))}
-
-#Para mapa .. saca todos las coordenadas y nomres de los recursos turisticos de loja
-#select ?recurso ?c ?lat ?long ?nombre where {<http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ?b ?c.
-#filter(regex(?c, 'http://idi.fundacionctic.org/cruzar/turismo#' )).
-#?recurso <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?c.
-#?recurso <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat.
-#?recurso <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long.
-#?recurso <http://schema.org/name> ?nombre.
-}
-
 ?>
 

@@ -380,7 +380,7 @@
 <http://turismoloja.sbc/schema/data#Canoha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#ValleVerde> <http://dbpedia.org/ontology/location> "Sucre Y Av. Catamayo" .
 <http://turismoloja.sbc/schema/data#ValleVerde> <http://schema.org/name> "Valle Verde" .
-<http://turismoloja.sbc/schema/data#ValleVerde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#ValleVerde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#CañaYTapa> <http://dbpedia.org/ontology/location> "Manuel Enrique Rengel Y Carlos Veintimilla" .
 <http://turismoloja.sbc/schema/data#CañaYTapa> <http://schema.org/name> "Caña Y Tapa" .
 <http://turismoloja.sbc/schema/data#CañaYTapa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -389,7 +389,7 @@
 <http://turismoloja.sbc/schema/data#Fruques003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#SanAndres> <http://dbpedia.org/ontology/location> "Miguel Riofrio 18-21 E/ Lauro Guerrero Y Ramon Pinto" .
 <http://turismoloja.sbc/schema/data#SanAndres> <http://schema.org/name> "San Andres" .
-<http://turismoloja.sbc/schema/data#SanAndres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#SanAndres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Estación65La> <http://dbpedia.org/ontology/location> "Juan De Salinas E/ Sucre Y Bolívar" .
 <http://turismoloja.sbc/schema/data#Estación65La> <http://schema.org/name> "Estación 65 La " .
 <http://turismoloja.sbc/schema/data#Estación65La> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -407,13 +407,13 @@
 <http://turismoloja.sbc/schema/data#CasaSol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#PiedraTorre> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Lautaro Loaiza" .
 <http://turismoloja.sbc/schema/data#PiedraTorre> <http://schema.org/name> "Piedra Torre" .
-<http://turismoloja.sbc/schema/data#PiedraTorre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#PiedraTorre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Rosso> <http://dbpedia.org/ontology/location> "Zoilo Rodriguez Y Prolongacion De La Av. 24 De Mayo." .
 <http://turismoloja.sbc/schema/data#Rosso> <http://schema.org/name> "Rosso" .
 <http://turismoloja.sbc/schema/data#Rosso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
 <http://turismoloja.sbc/schema/data#LosMaizales> <http://dbpedia.org/ontology/location> "18 De Noviembre(A 3 Cuadras Del Municipio)" .
 <http://turismoloja.sbc/schema/data#LosMaizales> <http://schema.org/name> "Los Maizales" .
-<http://turismoloja.sbc/schema/data#LosMaizales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#LosMaizales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#SasSuAperitivoSabroso> <http://dbpedia.org/ontology/location> "Bolivar 09-70 Y Miguel Riofrío" .
 <http://turismoloja.sbc/schema/data#SasSuAperitivoSabroso> <http://schema.org/name> "Sas Su Aperitivo Sabroso" .
 <http://turismoloja.sbc/schema/data#SasSuAperitivoSabroso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -425,7 +425,7 @@
 <http://turismoloja.sbc/schema/data#BeijingSuc.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#DonLuis> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Centenario" .
 <http://turismoloja.sbc/schema/data#DonLuis> <http://schema.org/name> "Don Luis" .
-<http://turismoloja.sbc/schema/data#DonLuis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#DonLuis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#HappyChicken> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Mercadillo" .
 <http://turismoloja.sbc/schema/data#HappyChicken> <http://schema.org/name> "Happy Chicken" .
 <http://turismoloja.sbc/schema/data#HappyChicken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -455,7 +455,7 @@
 <http://turismoloja.sbc/schema/data#TesoroEscondido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Taranza> <http://dbpedia.org/ontology/location> "Via A Yamburara" .
 <http://turismoloja.sbc/schema/data#Taranza> <http://schema.org/name> "Taranza" .
-<http://turismoloja.sbc/schema/data#Taranza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Taranza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#JugoNatural> <http://dbpedia.org/ontology/location> "Jose A. Eguiguren Y Bolivar" .
 <http://turismoloja.sbc/schema/data#JugoNatural> <http://schema.org/name> "Jugo Natural" .
 <http://turismoloja.sbc/schema/data#JugoNatural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -464,7 +464,7 @@
 <http://turismoloja.sbc/schema/data#LaFuego> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
 <http://turismoloja.sbc/schema/data#AngelesLos> <http://dbpedia.org/ontology/location> "Calle Roldos" .
 <http://turismoloja.sbc/schema/data#AngelesLos> <http://schema.org/name> "Angeles Los" .
-<http://turismoloja.sbc/schema/data#AngelesLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#AngelesLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Friend´S> <http://dbpedia.org/ontology/location> "La Salle Y Av. Orillas Del Zamora" .
 <http://turismoloja.sbc/schema/data#Friend´S> <http://schema.org/name> "Friend´S" .
 <http://turismoloja.sbc/schema/data#Friend´S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
@@ -482,7 +482,7 @@
 <http://turismoloja.sbc/schema/data#HuecoManabita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#CarlosJaramillo> <http://dbpedia.org/ontology/location> "Av. Isidro Ayora E/ 24 De Mayo Y 18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#CarlosJaramillo> <http://schema.org/name> "Carlos Jaramillo" .
-<http://turismoloja.sbc/schema/data#CarlosJaramillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#CarlosJaramillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PollosVivanco> <http://dbpedia.org/ontology/location> "Av Universitaria 07-24 Y 10 De Agosto" .
 <http://turismoloja.sbc/schema/data#PollosVivanco> <http://schema.org/name> "Pollos Vivanco" .
 <http://turismoloja.sbc/schema/data#PollosVivanco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -491,19 +491,19 @@
 <http://turismoloja.sbc/schema/data#LeParadise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Discotheque> .
 <http://turismoloja.sbc/schema/data#Puyango> <http://dbpedia.org/ontology/location> "10 De Agosto E/Sucre Y Juan Montalvo" .
 <http://turismoloja.sbc/schema/data#Puyango> <http://schema.org/name> "Puyango" .
-<http://turismoloja.sbc/schema/data#Puyango> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Puyango> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Miramar> <http://dbpedia.org/ontology/location> "Av. Loja Y José Miguel Rosillo" .
 <http://turismoloja.sbc/schema/data#Miramar> <http://schema.org/name> "Miramar" .
 <http://turismoloja.sbc/schema/data#Miramar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#ReyPlaza> <http://dbpedia.org/ontology/location> "Guayaquil Y Colón" .
 <http://turismoloja.sbc/schema/data#ReyPlaza> <http://schema.org/name> "Rey Plaza" .
-<http://turismoloja.sbc/schema/data#ReyPlaza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#ReyPlaza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#DumasTrattoría&Restaurant> <http://dbpedia.org/ontology/location> "Jose A. Aguiguren Y Bernardo Valdivieso" .
 <http://turismoloja.sbc/schema/data#DumasTrattoría&Restaurant> <http://schema.org/name> "Dumas Trattoría & Restaurant" .
 <http://turismoloja.sbc/schema/data#DumasTrattoría&Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Chandelier> <http://dbpedia.org/ontology/location> "Imbabura Y Sucre" .
 <http://turismoloja.sbc/schema/data#Chandelier> <http://schema.org/name> "Chandelier" .
-<http://turismoloja.sbc/schema/data#Chandelier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Chandelier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PinguinoGourmetSuc.> <http://dbpedia.org/ontology/location> "24 De Mayo Y Miguel Riofrío" .
 <http://turismoloja.sbc/schema/data#PinguinoGourmetSuc.> <http://schema.org/name> "Pinguino Gourmet Suc." .
 <http://turismoloja.sbc/schema/data#PinguinoGourmetSuc.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -527,7 +527,7 @@
 <http://turismoloja.sbc/schema/data#ElRetamarDeAbajoDeLosCotijos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Saraguro> <http://dbpedia.org/ontology/location> "Centro De Saraguro" .
 <http://turismoloja.sbc/schema/data#Saraguro> <http://schema.org/name> "Saraguro" .
-<http://turismoloja.sbc/schema/data#Saraguro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Saraguro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Oasis> <http://dbpedia.org/ontology/location> "Panamericana Km 20 Via Macará" .
 <http://turismoloja.sbc/schema/data#Oasis> <http://schema.org/name> "Oasis" .
 <http://turismoloja.sbc/schema/data#Oasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -539,7 +539,7 @@
 <http://turismoloja.sbc/schema/data#Manila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Libertador> <http://dbpedia.org/ontology/location> "Colon Y Bolivar" .
 <http://turismoloja.sbc/schema/data#Libertador> <http://schema.org/name> "Libertador" .
-<http://turismoloja.sbc/schema/data#Libertador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Libertador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#BlackTempationCoffee&Tea> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Chile (C.C. Don Daniel)" .
 <http://turismoloja.sbc/schema/data#BlackTempationCoffee&Tea> <http://schema.org/name> "Black Tempation Coffee & Tea" .
 <http://turismoloja.sbc/schema/data#BlackTempationCoffee&Tea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -632,7 +632,7 @@
 <http://turismoloja.sbc/schema/data#MamaToya> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Santigyn> <http://dbpedia.org/ontology/location> "Bolivar Y Manuel E. Rengel" .
 <http://turismoloja.sbc/schema/data#Santigyn> <http://schema.org/name> "Santigyn" .
-<http://turismoloja.sbc/schema/data#Santigyn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Santigyn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#OmmSiri> <http://dbpedia.org/ontology/location> "Ramon Pinto 11-119 Y Jose Picoita" .
 <http://turismoloja.sbc/schema/data#OmmSiri> <http://schema.org/name> "Omm Siri" .
 <http://turismoloja.sbc/schema/data#OmmSiri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -653,7 +653,7 @@
 <http://turismoloja.sbc/schema/data#Sandy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Tambococha> <http://dbpedia.org/ontology/location> "25 De Junio Y Manuel Vivanco" .
 <http://turismoloja.sbc/schema/data#Tambococha> <http://schema.org/name> "Tambococha" .
-<http://turismoloja.sbc/schema/data#Tambococha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Tambococha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Angelos> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Jose Felix De Valdivieso" .
 <http://turismoloja.sbc/schema/data#Angelos> <http://schema.org/name> "Angelo's" .
 <http://turismoloja.sbc/schema/data#Angelos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -668,7 +668,7 @@
 <http://turismoloja.sbc/schema/data#AsaderoToroRojoSteakhouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Medina> <http://dbpedia.org/ontology/location> "Ricardo Fernandez E/ Angel Polivio Y Sixto Durán " .
 <http://turismoloja.sbc/schema/data#Medina> <http://schema.org/name> "Medina" .
-<http://turismoloja.sbc/schema/data#Medina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Medina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#ValltoSuc.> <http://dbpedia.org/ontology/location> "Pio Montufar Y Alejandro Barvo" .
 <http://turismoloja.sbc/schema/data#ValltoSuc.> <http://schema.org/name> "Vallto Suc." .
 <http://turismoloja.sbc/schema/data#ValltoSuc.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Hotel> .
@@ -680,10 +680,10 @@
 <http://turismoloja.sbc/schema/data#LeBonGrill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#SamayHuasy> <http://dbpedia.org/ontology/location> "Angel Polivio Mora" .
 <http://turismoloja.sbc/schema/data#SamayHuasy> <http://schema.org/name> "Samay Huasy" .
-<http://turismoloja.sbc/schema/data#SamayHuasy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#SamayHuasy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Turismo> <http://dbpedia.org/ontology/location> "Isidro Ayora 13-14 Y Manuel Vivanco" .
 <http://turismoloja.sbc/schema/data#Turismo> <http://schema.org/name> "Turismo" .
-<http://turismoloja.sbc/schema/data#Turismo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Turismo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#SonoraMatancera> <http://dbpedia.org/ontology/location> "Sucre E/ Jose Felix De Valdivieso Y Juan De Salinas" .
 <http://turismoloja.sbc/schema/data#SonoraMatancera> <http://schema.org/name> "Sonora Matancera" .
 <http://turismoloja.sbc/schema/data#SonoraMatancera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -695,7 +695,7 @@
 <http://turismoloja.sbc/schema/data#CiruelosLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Mirador> <http://dbpedia.org/ontology/location> "Ramón Pinto 05 Y Colón " .
 <http://turismoloja.sbc/schema/data#Mirador> <http://schema.org/name> "Mirador" .
-<http://turismoloja.sbc/schema/data#Mirador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Mirador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Funghi> <http://dbpedia.org/ontology/location> "24 De Mayo Y Rocafuerte" .
 <http://turismoloja.sbc/schema/data#Funghi> <http://schema.org/name> "Funghi" .
 <http://turismoloja.sbc/schema/data#Funghi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -728,7 +728,7 @@
 <http://turismoloja.sbc/schema/data#QuoVadis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Hotel> .
 <http://turismoloja.sbc/schema/data#ConquistadorEl> <http://dbpedia.org/ontology/location> "Bolivar Y Abdón Calderón " .
 <http://turismoloja.sbc/schema/data#ConquistadorEl> <http://schema.org/name> "Conquistador El " .
-<http://turismoloja.sbc/schema/data#ConquistadorEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#ConquistadorEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#FruquesSuc.> <http://dbpedia.org/ontology/location> "10 De Agosto 12-19 Y Bernardo Valdivieso" .
 <http://turismoloja.sbc/schema/data#FruquesSuc.> <http://schema.org/name> "Fruques Suc." .
 <http://turismoloja.sbc/schema/data#FruquesSuc.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -782,7 +782,7 @@
 <http://turismoloja.sbc/schema/data#Pecados> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
 <http://turismoloja.sbc/schema/data#Real> <http://dbpedia.org/ontology/location> "Azuay Y Juan José Peña" .
 <http://turismoloja.sbc/schema/data#Real> <http://schema.org/name> "Real" .
-<http://turismoloja.sbc/schema/data#Real> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Real> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PaviPolloSuc.3> <http://dbpedia.org/ontology/location> "Av. Isidro Ayora Y 1ro De Mayo" .
 <http://turismoloja.sbc/schema/data#PaviPolloSuc.3> <http://schema.org/name> "Pavi Pollo Suc. 3" .
 <http://turismoloja.sbc/schema/data#PaviPolloSuc.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -794,7 +794,7 @@
 <http://turismoloja.sbc/schema/data#ChaguarpambaSuCafe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#SurDel> <http://dbpedia.org/ontology/location> "Carlos Veintimilla Y Loja" .
 <http://turismoloja.sbc/schema/data#SurDel> <http://schema.org/name> "Sur Del" .
-<http://turismoloja.sbc/schema/data#SurDel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#SurDel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#ConAroma> <http://dbpedia.org/ontology/location> "27/10/2014" .
 <http://turismoloja.sbc/schema/data#ConAroma> <http://schema.org/name> "Con Aroma" .
 <http://turismoloja.sbc/schema/data#ConAroma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -812,7 +812,7 @@
 <http://turismoloja.sbc/schema/data#LaParadaDeLosCombos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
 <http://turismoloja.sbc/schema/data#EncantoDelSur> <http://dbpedia.org/ontology/location> "24 De Mayo Y Eugenio Espejo" .
 <http://turismoloja.sbc/schema/data#EncantoDelSur> <http://schema.org/name> "Encanto Del Sur" .
-<http://turismoloja.sbc/schema/data#EncantoDelSur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#EncantoDelSur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#LaCabuyaD&N> <http://dbpedia.org/ontology/location> "Malecon S/N" .
 <http://turismoloja.sbc/schema/data#LaCabuyaD&N> <http://schema.org/name> "La Cabuya D&N" .
 <http://turismoloja.sbc/schema/data#LaCabuyaD&N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -839,10 +839,10 @@
 <http://turismoloja.sbc/schema/data#Laysecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#VirgenDelCisne> <http://dbpedia.org/ontology/location> "Ramon Pinto 18-41 Y Colon" .
 <http://turismoloja.sbc/schema/data#VirgenDelCisne> <http://schema.org/name> "Virgen Del Cisne" .
-<http://turismoloja.sbc/schema/data#VirgenDelCisne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#VirgenDelCisne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#EspigaDeOro> <http://dbpedia.org/ontology/location> "Antonio Ante Y 10 De Agosto" .
 <http://turismoloja.sbc/schema/data#EspigaDeOro> <http://schema.org/name> "Espiga De Oro" .
-<http://turismoloja.sbc/schema/data#EspigaDeOro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#EspigaDeOro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#CasonaDelSaborLa> <http://dbpedia.org/ontology/location> "Juan Antonio Montesinos Yhonorato Lazo" .
 <http://turismoloja.sbc/schema/data#CasonaDelSaborLa> <http://schema.org/name> "Casona Del Sabor La" .
 <http://turismoloja.sbc/schema/data#CasonaDelSaborLa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -866,7 +866,7 @@
 <http://turismoloja.sbc/schema/data#Rizzoto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Malacatos> <http://dbpedia.org/ontology/location> "Manuel Godoy Y Juan Pio Montufar /Parque Central)" .
 <http://turismoloja.sbc/schema/data#Malacatos> <http://schema.org/name> "Malacatos" .
-<http://turismoloja.sbc/schema/data#Malacatos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Malacatos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#ChipsLondon> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Chile (C.C. Don Daniel)" .
 <http://turismoloja.sbc/schema/data#ChipsLondon> <http://schema.org/name> "Chips London" .
 <http://turismoloja.sbc/schema/data#ChipsLondon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -878,7 +878,7 @@
 <http://turismoloja.sbc/schema/data#YogurtExpress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#Quilanga> <http://dbpedia.org/ontology/location> "Bolivar Y 10 De Agosto" .
 <http://turismoloja.sbc/schema/data#Quilanga> <http://schema.org/name> "Quilanga" .
-<http://turismoloja.sbc/schema/data#Quilanga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Quilanga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Ecuatorianisima(Sucursal)> <http://dbpedia.org/ontology/location> "24 De Mayo 04-96 Y Segundo Cueva Celi" .
 <http://turismoloja.sbc/schema/data#Ecuatorianisima(Sucursal)> <http://schema.org/name> "Ecuatorianisima (Sucursal)" .
 <http://turismoloja.sbc/schema/data#Ecuatorianisima(Sucursal)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -893,7 +893,7 @@
 <http://turismoloja.sbc/schema/data#Central> <http://dbpedia.org/ontology/location> "10 De Agosto Y Juan Montalvo" .
 <http://turismoloja.sbc/schema/data#Central> <http://dbpedia.org/ontology/location> "Eloy Alfaro Y 18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#Central> <http://schema.org/name> "Central" .
-<http://turismoloja.sbc/schema/data#Central> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Central> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PapaCharroIi> <http://dbpedia.org/ontology/location> "Bernardo Valdivieso E/ Mercadillo Y Lourdes" .
 <http://turismoloja.sbc/schema/data#PapaCharroIi> <http://schema.org/name> "Papa Charro Ii" .
 <http://turismoloja.sbc/schema/data#PapaCharroIi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -958,16 +958,16 @@
 <http://turismoloja.sbc/schema/data#PollosDeLaPío> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Rossanna> <http://dbpedia.org/ontology/location> "Av. Isidro Ayora Y 24 De Mayo" .
 <http://turismoloja.sbc/schema/data#Rossanna> <http://schema.org/name> "Rossanna" .
-<http://turismoloja.sbc/schema/data#Rossanna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Rossanna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Manantial> <http://dbpedia.org/ontology/location> "Bolivar 11-38 Y Mercadillo " .
 <http://turismoloja.sbc/schema/data#Manantial> <http://schema.org/name> "Manantial" .
 <http://turismoloja.sbc/schema/data#Manantial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#DelValle> <http://dbpedia.org/ontology/location> "Av. Salvador Bustamante Celi" .
 <http://turismoloja.sbc/schema/data#DelValle> <http://schema.org/name> "Del Valle" .
-<http://turismoloja.sbc/schema/data#DelValle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#DelValle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PradoInternacional> <http://dbpedia.org/ontology/location> "Rocafuerte Y Av. Iberoamerica" .
 <http://turismoloja.sbc/schema/data#PradoInternacional> <http://schema.org/name> "Prado Internacional" .
-<http://turismoloja.sbc/schema/data#PradoInternacional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#PradoInternacional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Buba´S> <http://dbpedia.org/ontology/location> "24 Demayo Y Padre Eliseo Arias Carrión" .
 <http://turismoloja.sbc/schema/data#Buba´S> <http://schema.org/name> "Buba´S" .
 <http://turismoloja.sbc/schema/data#Buba´S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
@@ -1006,16 +1006,16 @@
 <http://turismoloja.sbc/schema/data#BeijingSuc.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Carolina> <http://dbpedia.org/ontology/location> "10 De Agosto Y Av. Panamericana" .
 <http://turismoloja.sbc/schema/data#Carolina> <http://schema.org/name> "Carolina" .
-<http://turismoloja.sbc/schema/data#Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#LosMolinos> <http://dbpedia.org/ontology/location> "18 De Noviembre 17-26 Y Gonzanamá" .
 <http://turismoloja.sbc/schema/data#LosMolinos> <http://schema.org/name> "Los Molinos" .
-<http://turismoloja.sbc/schema/data#LosMolinos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#LosMolinos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#TheMill´S> <http://dbpedia.org/ontology/location> "Sucre 17-20y Gonzanamá" .
 <http://turismoloja.sbc/schema/data#TheMill´S> <http://schema.org/name> "The Mill´S" .
-<http://turismoloja.sbc/schema/data#TheMill´S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#TheMill´S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Podocarpus> <http://dbpedia.org/ontology/location> "Jose A. Eguiguren Y 18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#Podocarpus> <http://schema.org/name> "Podocarpus" .
-<http://turismoloja.sbc/schema/data#Podocarpus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Podocarpus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PollosGusySuc.1> <http://dbpedia.org/ontology/location> "Av. Orillas Del Zamora Y Azogues" .
 <http://turismoloja.sbc/schema/data#PollosGusySuc.1> <http://schema.org/name> "Pollos Gusy Suc. 1" .
 <http://turismoloja.sbc/schema/data#PollosGusySuc.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1033,7 +1033,7 @@
 <http://turismoloja.sbc/schema/data#CunaDeArtistas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#RoyalCariamanga> <http://dbpedia.org/ontology/location> "Mariano Samaniego Y Clotario Paz" .
 <http://turismoloja.sbc/schema/data#RoyalCariamanga> <http://schema.org/name> "Royal Cariamanga" .
-<http://turismoloja.sbc/schema/data#RoyalCariamanga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#RoyalCariamanga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#EppiCafe> <http://dbpedia.org/ontology/location> "Juan Jose Peña Y 10 De Agosto" .
 <http://turismoloja.sbc/schema/data#EppiCafe> <http://schema.org/name> "Eppi Cafe" .
 <http://turismoloja.sbc/schema/data#EppiCafe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1084,7 +1084,7 @@
 <http://turismoloja.sbc/schema/data#Lojanos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#BosqueEl> <http://dbpedia.org/ontology/location> "Sucre Y 10 De Agosto" .
 <http://turismoloja.sbc/schema/data#BosqueEl> <http://schema.org/name> "Bosque El" .
-<http://turismoloja.sbc/schema/data#BosqueEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#BosqueEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#D´Eventos> <http://dbpedia.org/ontology/location> "18 De Noviembre 02-39 Y Centenario" .
 <http://turismoloja.sbc/schema/data#D´Eventos> <http://schema.org/name> "D´Eventos" .
 <http://turismoloja.sbc/schema/data#D´Eventos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1126,7 +1126,7 @@
 <http://turismoloja.sbc/schema/data#DTollyzz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
 <http://turismoloja.sbc/schema/data#GrandHotelSica> <http://dbpedia.org/ontology/location> "10 De Gosto Y Colon" .
 <http://turismoloja.sbc/schema/data#GrandHotelSica> <http://schema.org/name> "Grand Hotel Sica" .
-<http://turismoloja.sbc/schema/data#GrandHotelSica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#GrandHotelSica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#BeerFactory> <http://dbpedia.org/ontology/location> "Bolivar Y 10 De Agosto" .
 <http://turismoloja.sbc/schema/data#BeerFactory> <http://schema.org/name> "Beer Factory" .
 <http://turismoloja.sbc/schema/data#BeerFactory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Discotheque> .
@@ -1138,7 +1138,7 @@
 <http://turismoloja.sbc/schema/data#SonLatinos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Discotheque> .
 <http://turismoloja.sbc/schema/data#Celestial> <http://dbpedia.org/ontology/location> "Manuela Cañizares Y Garcia Moreno" .
 <http://turismoloja.sbc/schema/data#Celestial> <http://schema.org/name> "Celestial" .
-<http://turismoloja.sbc/schema/data#Celestial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Celestial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Lolita> <http://dbpedia.org/ontology/location> "Av.  Salvador B. Celi Y Guayaquil" .
 <http://turismoloja.sbc/schema/data#Lolita> <http://schema.org/name> "Lolita" .
 <http://turismoloja.sbc/schema/data#Lolita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1150,7 +1150,7 @@
 <http://turismoloja.sbc/schema/data#MarAzulCatamayo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Mandango> <http://dbpedia.org/ontology/location> "Huilcapamba Y Clodoveo Jaramillo" .
 <http://turismoloja.sbc/schema/data#Mandango> <http://schema.org/name> "Mandango" .
-<http://turismoloja.sbc/schema/data#Mandango> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Mandango> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#TullpaLa> <http://dbpedia.org/ontology/location> "Colon 15-83 Y 18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#TullpaLa> <http://schema.org/name> "Tullpa La" .
 <http://turismoloja.sbc/schema/data#TullpaLa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1159,7 +1159,7 @@
 <http://turismoloja.sbc/schema/data#HotBurguer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#Mendoza> <http://dbpedia.org/ontology/location> "Av. Universitaria Y 10 De Agosto" .
 <http://turismoloja.sbc/schema/data#Mendoza> <http://schema.org/name> "Mendoza" .
-<http://turismoloja.sbc/schema/data#Mendoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Mendoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Desahogos> <http://dbpedia.org/ontology/location> "Eduardo Kigman Y Gonzanamá" .
 <http://turismoloja.sbc/schema/data#Desahogos> <http://schema.org/name> "Desahogos" .
 <http://turismoloja.sbc/schema/data#Desahogos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
@@ -1171,7 +1171,7 @@
 <http://turismoloja.sbc/schema/data#AgaveBlu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#AngelesLos> <http://dbpedia.org/ontology/location> "José Miguel Zárate" .
 <http://turismoloja.sbc/schema/data#AngelesLos> <http://schema.org/name> "Ángeles Los" .
-<http://turismoloja.sbc/schema/data#AngelesLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#AngelesLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#RestauranteYAsaditosPps> <http://dbpedia.org/ontology/location> "Av. Catamayo 05-07 Y Eugenio Espejo" .
 <http://turismoloja.sbc/schema/data#RestauranteYAsaditosPps> <http://schema.org/name> "Restaurante Y Asaditos Pp's" .
 <http://turismoloja.sbc/schema/data#RestauranteYAsaditosPps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1189,13 +1189,13 @@
 <http://turismoloja.sbc/schema/data#TheBlackClubLife> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
 <http://turismoloja.sbc/schema/data#Bombuscaro> <http://dbpedia.org/ontology/location> "10 De Agosto Y Av. Universitaria" .
 <http://turismoloja.sbc/schema/data#Bombuscaro> <http://schema.org/name> "Bombuscaro" .
-<http://turismoloja.sbc/schema/data#Bombuscaro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Bombuscaro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Magnus> <http://dbpedia.org/ontology/location> "Machalay Jaramijó" .
 <http://turismoloja.sbc/schema/data#Magnus> <http://schema.org/name> "Magnus" .
 <http://turismoloja.sbc/schema/data#Magnus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#BamruaIntenacional> <http://dbpedia.org/ontology/location> "Av. Principal- Barrio Hno. Miguel" .
 <http://turismoloja.sbc/schema/data#BamruaIntenacional> <http://schema.org/name> "Bamrúa Intenacional" .
-<http://turismoloja.sbc/schema/data#BamruaIntenacional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#BamruaIntenacional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Holiday> <http://dbpedia.org/ontology/location> "Bolívar Y Catacocha" .
 <http://turismoloja.sbc/schema/data#Holiday> <http://schema.org/name> "Holiday" .
 <http://turismoloja.sbc/schema/data#Holiday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
@@ -1210,7 +1210,7 @@
 <http://turismoloja.sbc/schema/data#CasaGrande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Mercadillo> <http://dbpedia.org/ontology/location> "Olmedo Y Mercadillo" .
 <http://turismoloja.sbc/schema/data#Mercadillo> <http://schema.org/name> "Mercadillo" .
-<http://turismoloja.sbc/schema/data#Mercadillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Mercadillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Ecuatorianisima> <http://dbpedia.org/ontology/location> "24 De Mayo 10-56  Y Azuay " .
 <http://turismoloja.sbc/schema/data#Ecuatorianisima> <http://schema.org/name> "Ecuatorianísima" .
 <http://turismoloja.sbc/schema/data#Ecuatorianisima> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1225,10 +1225,10 @@
 <http://turismoloja.sbc/schema/data#Mixtura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#EscorialEl> <http://dbpedia.org/ontology/location> "18 De Noviembre (Parque Central)" .
 <http://turismoloja.sbc/schema/data#EscorialEl> <http://schema.org/name> "Escorial El" .
-<http://turismoloja.sbc/schema/data#EscorialEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#EscorialEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#RealColón> <http://dbpedia.org/ontology/location> "Colon E 18 De Noviembre Y Sucre" .
 <http://turismoloja.sbc/schema/data#RealColón> <http://schema.org/name> "Real Colón" .
-<http://turismoloja.sbc/schema/data#RealColón> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#RealColón> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Papakrunch> <http://dbpedia.org/ontology/location> "Colón 15-71 Y 18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#Papakrunch> <http://schema.org/name> "Papakrunch" .
 <http://turismoloja.sbc/schema/data#Papakrunch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -1243,7 +1243,7 @@
 <http://turismoloja.sbc/schema/data#ArtesanaleSuc.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#Imperial> <http://dbpedia.org/ontology/location> "Sixto Durán Ballén Y Ricardo Fernández" .
 <http://turismoloja.sbc/schema/data#Imperial> <http://schema.org/name> "Imperial" .
-<http://turismoloja.sbc/schema/data#Imperial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Imperial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#LosArrecifesDelBucaneroBarbaro> <http://dbpedia.org/ontology/location> "Bolivar Y Juan Leon Mera" .
 <http://turismoloja.sbc/schema/data#LosArrecifesDelBucaneroBarbaro> <http://schema.org/name> "Los Arrecifes Del Bucanero Barbaro" .
 <http://turismoloja.sbc/schema/data#LosArrecifesDelBucaneroBarbaro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1261,7 +1261,7 @@
 <http://turismoloja.sbc/schema/data#LaTerrazaDeliciousFood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#TerraVerde> <http://dbpedia.org/ontology/location> "Lazaro Vaca" .
 <http://turismoloja.sbc/schema/data#TerraVerde> <http://schema.org/name> "Terra Verde" .
-<http://turismoloja.sbc/schema/data#TerraVerde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#TerraVerde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#CoffeeAndBreakC&C> <http://dbpedia.org/ontology/location> "Bernardo Valdivieso E/ Miguel Riofrio Y Rocafuerte " .
 <http://turismoloja.sbc/schema/data#CoffeeAndBreakC&C> <http://schema.org/name> "Coffee And Break C&C" .
 <http://turismoloja.sbc/schema/data#CoffeeAndBreakC&C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1270,10 +1270,10 @@
 <http://turismoloja.sbc/schema/data#MamaLolaExpress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#FraguaLa> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Centenario" .
 <http://turismoloja.sbc/schema/data#FraguaLa> <http://schema.org/name> "Fragua La " .
-<http://turismoloja.sbc/schema/data#FraguaLa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#FraguaLa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#MargaritasLas> <http://dbpedia.org/ontology/location> "Sucre Y Clodoveo Jaramillo" .
 <http://turismoloja.sbc/schema/data#MargaritasLas> <http://schema.org/name> "Margaritas Las" .
-<http://turismoloja.sbc/schema/data#MargaritasLas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#MargaritasLas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PollosGusySuc2> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Gonzanamá " .
 <http://turismoloja.sbc/schema/data#PollosGusySuc2> <http://schema.org/name> "Pollos Gusy Suc. 2" .
 <http://turismoloja.sbc/schema/data#PollosGusySuc2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1288,7 +1288,7 @@
 <http://turismoloja.sbc/schema/data#Linburguer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#Bekalus> <http://dbpedia.org/ontology/location> "Sebastian Valdivieso Y 10 De Agosto" .
 <http://turismoloja.sbc/schema/data#Bekalus> <http://schema.org/name> "Bekalus" .
-<http://turismoloja.sbc/schema/data#Bekalus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Bekalus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#AsadosElSafari> <http://dbpedia.org/ontology/location> "Av.Padre Solano" .
 <http://turismoloja.sbc/schema/data#AsadosElSafari> <http://schema.org/name> "Asados El Safari" .
 <http://turismoloja.sbc/schema/data#AsadosElSafari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1305,7 +1305,7 @@
 <http://turismoloja.sbc/schema/data#Karina> <http://schema.org/name> "Karina" .
 <http://turismoloja.sbc/schema/data#Karina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Pucara> <http://dbpedia.org/ontology/location> "Colon Y Carlos Bustamante" .
-<http://turismoloja.sbc/schema/data#Pucara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Pucara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Pucara> <http://dbpedia.org/ontology/location> "Azuay  E/  Av. Lauro Guerrero Y Av. Iberoamerica" .
 <http://turismoloja.sbc/schema/data#Pucara> <http://schema.org/name> "Pucara" .
 <http://turismoloja.sbc/schema/data#Pucara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Hotel> .
@@ -1329,10 +1329,10 @@
 <http://turismoloja.sbc/schema/data#NachosDelGüero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Unihotel> <http://dbpedia.org/ontology/location> "Lourdes 15-45 Y Sucre" .
 <http://turismoloja.sbc/schema/data#Unihotel> <http://schema.org/name> "Unihotel" .
-<http://turismoloja.sbc/schema/data#Unihotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Unihotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#AndesDelPrado> <http://dbpedia.org/ontology/location> "Mariana De Jesus E/ 10 De Agosto Y Rocafuerte" .
 <http://turismoloja.sbc/schema/data#AndesDelPrado> <http://schema.org/name> "Andes Del Prado" .
-<http://turismoloja.sbc/schema/data#AndesDelPrado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#AndesDelPrado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#ShamuicoEspaiGastronomic> <http://dbpedia.org/ontology/location> "Loja Y 10 De Marzo" .
 <http://turismoloja.sbc/schema/data#ShamuicoEspaiGastronomic> <http://schema.org/name> "Shamuico Espai Gastronomic" .
 <http://turismoloja.sbc/schema/data#ShamuicoEspaiGastronomic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1344,7 +1344,7 @@
 <http://turismoloja.sbc/schema/data#MaxiBurguer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#SanSebastian> <http://dbpedia.org/ontology/location> "18 De Noviembre E Azuay Y Mercadillo" .
 <http://turismoloja.sbc/schema/data#SanSebastian> <http://schema.org/name> "San Sebastian" .
-<http://turismoloja.sbc/schema/data#SanSebastian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#SanSebastian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PupilaLa> <http://dbpedia.org/ontology/location> "Mariana De Jesus-Prol. Zoilo Rodriguez E/ 10 De Agosto Y Rocafuerte" .
 <http://turismoloja.sbc/schema/data#PupilaLa> <http://schema.org/name> "Pupila La " .
 <http://turismoloja.sbc/schema/data#PupilaLa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
@@ -1419,13 +1419,13 @@
 <http://turismoloja.sbc/schema/data#Rusticsnm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#Primavera> <http://dbpedia.org/ontology/location> "Colon E/ Av. Universitaria Y 18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#Primavera> <http://schema.org/name> "Primavera" .
-<http://turismoloja.sbc/schema/data#Primavera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Primavera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PekingSuc.> <http://dbpedia.org/ontology/location> "Jose A. Eguiguren Y 18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#PekingSuc.> <http://schema.org/name> "Peking Suc." .
 <http://turismoloja.sbc/schema/data#PekingSuc.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#SanPedroDeSaraguro> <http://dbpedia.org/ontology/location> "Av. Loja  E Juan Antonio Castro Y Reino De Quito" .
 <http://turismoloja.sbc/schema/data#SanPedroDeSaraguro> <http://schema.org/name> "San Pedro De Saraguro" .
-<http://turismoloja.sbc/schema/data#SanPedroDeSaraguro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#SanPedroDeSaraguro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PaviPolloPrincipal> <http://dbpedia.org/ontology/location> "Mercadillo 15-23 Sucre Y 18 Noviembre" .
 <http://turismoloja.sbc/schema/data#PaviPolloPrincipal> <http://schema.org/name> "Pavi Pollo Principal" .
 <http://turismoloja.sbc/schema/data#PaviPolloPrincipal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1440,7 +1440,7 @@
 <http://turismoloja.sbc/schema/data#ComoEnCasa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#ÑukanchiSaraAllpa> <http://dbpedia.org/ontology/location> "Antonio Castro Y Loja" .
 <http://turismoloja.sbc/schema/data#ÑukanchiSaraAllpa> <http://schema.org/name> "Ñukanchi Sara Allpa" .
-<http://turismoloja.sbc/schema/data#ÑukanchiSaraAllpa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#ÑukanchiSaraAllpa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#TruchasDelSalado> <http://dbpedia.org/ontology/location> "Barrio Sacapo" .
 <http://turismoloja.sbc/schema/data#TruchasDelSalado> <http://schema.org/name> "Truchas Del Salado" .
 <http://turismoloja.sbc/schema/data#TruchasDelSalado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1506,13 +1506,13 @@
 <http://turismoloja.sbc/schema/data#FogonGrillCentroEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#AruposLos> <http://dbpedia.org/ontology/location> "Juan De Salinas Y Sucre" .
 <http://turismoloja.sbc/schema/data#AruposLos> <http://schema.org/name> "Arupos Los" .
-<http://turismoloja.sbc/schema/data#AruposLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#AruposLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#AromaEl> <http://dbpedia.org/ontology/location> "Jose A. Eguiguren Y Sucre" .
 <http://turismoloja.sbc/schema/data#AromaEl> <http://schema.org/name> "Aroma El" .
 <http://turismoloja.sbc/schema/data#AromaEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#SamanaWasi> <http://dbpedia.org/ontology/location> "10  De Marzo Y Panamericana" .
 <http://turismoloja.sbc/schema/data#SamanaWasi> <http://schema.org/name> "Samana Wasi" .
-<http://turismoloja.sbc/schema/data#SamanaWasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#SamanaWasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Peking> <http://dbpedia.org/ontology/location> "Diego Vaca De Vega E Bolívar Y Agua De Hierro" .
 <http://turismoloja.sbc/schema/data#Peking> <http://schema.org/name> "Peking" .
 <http://turismoloja.sbc/schema/data#Peking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1527,28 +1527,28 @@
 <http://turismoloja.sbc/schema/data#GatoEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#EstanciaColambo> <http://dbpedia.org/ontology/location> "Av. Gonzanamá" .
 <http://turismoloja.sbc/schema/data#EstanciaColambo> <http://schema.org/name> "Estancia Colambo" .
-<http://turismoloja.sbc/schema/data#EstanciaColambo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#EstanciaColambo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#SisonPollosSuc.> <http://dbpedia.org/ontology/location> "Carlos Veintimilla" .
 <http://turismoloja.sbc/schema/data#SisonPollosSuc.> <http://schema.org/name> "Sison Pollos Suc." .
 <http://turismoloja.sbc/schema/data#SisonPollosSuc.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#AkemiSushi> <http://dbpedia.org/ontology/location> "Paris 0006 Y Zoilo Rodríguez" .
 <http://turismoloja.sbc/schema/data#AkemiSushi> <http://schema.org/name> " Akemi Sushi" .
-<http://turismoloja.sbc/schema/data#AkemiSushi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#AkemiSushi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PollosGusyPrincipal> <http://dbpedia.org/ontology/location> "Av. Manuel Agustín Aguirre Y Colon" .
 <http://turismoloja.sbc/schema/data#PollosGusyPrincipal> <http://schema.org/name> "Pollos Gusy Principal" .
 <http://turismoloja.sbc/schema/data#PollosGusyPrincipal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#GranHostalMacara> <http://dbpedia.org/ontology/location> "Av. Panamericana Y Bolivar" .
 <http://turismoloja.sbc/schema/data#GranHostalMacara> <http://schema.org/name> "Gran Hostal Macara" .
-<http://turismoloja.sbc/schema/data#GranHostalMacara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#GranHostalMacara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#RecreoEl> <http://dbpedia.org/ontology/location> "Salvador B. Celi Y Chone" .
 <http://turismoloja.sbc/schema/data#RecreoEl> <http://schema.org/name> "Recreo El" .
 <http://turismoloja.sbc/schema/data#RecreoEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#VillaColonial> <http://dbpedia.org/ontology/location> "Pio Montufar Y Justiniano Estupiñan" .
 <http://turismoloja.sbc/schema/data#VillaColonial> <http://schema.org/name> "Villa Colonial" .
-<http://turismoloja.sbc/schema/data#VillaColonial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#VillaColonial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#MiViejo> <http://dbpedia.org/ontology/location> "Comercio E Isidro Ayora" .
 <http://turismoloja.sbc/schema/data#MiViejo> <http://schema.org/name> "Mi Viejo" .
-<http://turismoloja.sbc/schema/data#MiViejo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#MiViejo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#T&J> <http://dbpedia.org/ontology/location> "Sucre Y Bernardo Valdivieso" .
 <http://turismoloja.sbc/schema/data#T&J> <http://schema.org/name> "T&J" .
 <http://turismoloja.sbc/schema/data#T&J> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -1566,7 +1566,7 @@
 <http://turismoloja.sbc/schema/data#ValleSagrado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Hotel> .
 <http://turismoloja.sbc/schema/data#Amaluza> <http://dbpedia.org/ontology/location> "Bolivar Y Oriente" .
 <http://turismoloja.sbc/schema/data#Amaluza> <http://schema.org/name> "Amaluza" .
-<http://turismoloja.sbc/schema/data#Amaluza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Amaluza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PaviPolloNº2> <http://dbpedia.org/ontology/location> "Mercadillo Y Sucre Esquina." .
 <http://turismoloja.sbc/schema/data#PaviPolloNº2> <http://schema.org/name> "Pavi Pollo Nº 2" .
 <http://turismoloja.sbc/schema/data#PaviPolloNº2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1611,16 +1611,16 @@
 <http://turismoloja.sbc/schema/data#VilcabambaJuiceFactory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#SanFrancisco> <http://dbpedia.org/ontology/location> "Carrera Chile Y Padre Esteban" .
 <http://turismoloja.sbc/schema/data#SanFrancisco> <http://schema.org/name> "San Francisco" .
-<http://turismoloja.sbc/schema/data#SanFrancisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#SanFrancisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#GrandHotelCalvas> <http://dbpedia.org/ontology/location> "Eloy Alfaro Y 18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#GrandHotelCalvas> <http://schema.org/name> "Grand Hotel Calvas" .
-<http://turismoloja.sbc/schema/data#GrandHotelCalvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#GrandHotelCalvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Ahuaca> <http://dbpedia.org/ontology/location> "Sucre ( Parque Central )" .
 <http://turismoloja.sbc/schema/data#Ahuaca> <http://schema.org/name> "Ahuaca" .
-<http://turismoloja.sbc/schema/data#Ahuaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Ahuaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Pindal> <http://dbpedia.org/ontology/location> "Loja Y Subteniente Raul Ramirez" .
 <http://turismoloja.sbc/schema/data#Pindal> <http://schema.org/name> "Pindal" .
-<http://turismoloja.sbc/schema/data#Pindal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Pindal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PollosGusySuc.3> <http://dbpedia.org/ontology/location> "Av. 8 De Diciembre 15-51 Y Juan José Flores" .
 <http://turismoloja.sbc/schema/data#PollosGusySuc.3> <http://schema.org/name> "Pollos Gusy Suc. 3" .
 <http://turismoloja.sbc/schema/data#PollosGusySuc.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1632,10 +1632,10 @@
 <http://turismoloja.sbc/schema/data#Bachita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Ramses> <http://dbpedia.org/ontology/location> "Colon 14-31 Y Bolivar" .
 <http://turismoloja.sbc/schema/data#Ramses> <http://schema.org/name> "Ramses" .
-<http://turismoloja.sbc/schema/data#Ramses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Ramses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#DescansoEl> <http://dbpedia.org/ontology/location> "Via Perimetral" .
 <http://turismoloja.sbc/schema/data#DescansoEl> <http://schema.org/name> "Descanso El" .
-<http://turismoloja.sbc/schema/data#DescansoEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#DescansoEl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#BigBurguer> <http://dbpedia.org/ontology/location> "Sucre Y 18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#BigBurguer> <http://schema.org/name> "Big Burguer" .
 <http://turismoloja.sbc/schema/data#BigBurguer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -1683,7 +1683,7 @@
 <http://turismoloja.sbc/schema/data#JhonsTopsy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#Celica> <http://dbpedia.org/ontology/location> "10 De Agosto Y Garcia Moreno" .
 <http://turismoloja.sbc/schema/data#Celica> <http://schema.org/name> "Celica" .
-<http://turismoloja.sbc/schema/data#Celica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Celica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#MisterChicken> <http://dbpedia.org/ontology/location> "Lauro Guerrero Y Loja " .
 <http://turismoloja.sbc/schema/data#MisterChicken> <http://schema.org/name> "Mister Chicken" .
 <http://turismoloja.sbc/schema/data#MisterChicken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1698,7 +1698,7 @@
 <http://turismoloja.sbc/schema/data#Francis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#ValdiviesoJr> <http://dbpedia.org/ontology/location> "18 De Noviembre" .
 <http://turismoloja.sbc/schema/data#ValdiviesoJr> <http://schema.org/name> "Valdivieso Jr" .
-<http://turismoloja.sbc/schema/data#ValdiviesoJr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#ValdiviesoJr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#TomeñitaLa> <http://dbpedia.org/ontology/location> "Av. Isidro Ayora Y Sucre" .
 <http://turismoloja.sbc/schema/data#TomeñitaLa> <http://schema.org/name> "Tomeñita La" .
 <http://turismoloja.sbc/schema/data#TomeñitaLa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1713,7 +1713,7 @@
 <http://turismoloja.sbc/schema/data#JardinesDelRío> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Hotel> .
 <http://turismoloja.sbc/schema/data#Zapotillo> <http://dbpedia.org/ontology/location> "Sucre Y Las Palmeras" .
 <http://turismoloja.sbc/schema/data#Zapotillo> <http://schema.org/name> "Zapotillo" .
-<http://turismoloja.sbc/schema/data#Zapotillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Zapotillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PingüinoGourmet&CherryBeans> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Chile (C.C. Don Daniel)" .
 <http://turismoloja.sbc/schema/data#PingüinoGourmet&CherryBeans> <http://schema.org/name> "Pingüino Gourmet & Cherry Beans" .
 <http://turismoloja.sbc/schema/data#PingüinoGourmet&CherryBeans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -1758,7 +1758,7 @@
 <http://turismoloja.sbc/schema/data#MayWok> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#JardinEscondido> <http://dbpedia.org/ontology/location> "Diego De Vaca Y Sucre" .
 <http://turismoloja.sbc/schema/data#JardinEscondido> <http://schema.org/name> "Jardin Escondido" .
-<http://turismoloja.sbc/schema/data#JardinEscondido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#JardinEscondido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Tornado> <http://dbpedia.org/ontology/location> "10 De Agosto Y Sucre" .
 <http://turismoloja.sbc/schema/data#Tornado> <http://schema.org/name> "Tornado" .
 <http://turismoloja.sbc/schema/data#Tornado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Discotheque> .
@@ -1776,7 +1776,7 @@
 <http://turismoloja.sbc/schema/data#ParrilladasElFogon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#D´Carlos> <http://dbpedia.org/ontology/location> " 10 De Agosto Y Quito" .
 <http://turismoloja.sbc/schema/data#D´Carlos> <http://schema.org/name> "D´Carlos" .
-<http://turismoloja.sbc/schema/data#D´Carlos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#D´Carlos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PalaRumbaDisco> <http://dbpedia.org/ontology/location> "Loja Y Naún Briones" .
 <http://turismoloja.sbc/schema/data#PalaRumbaDisco> <http://schema.org/name> "Pa'la Rumba Disco" .
 <http://turismoloja.sbc/schema/data#PalaRumbaDisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Discotheque> .
@@ -1787,7 +1787,7 @@
 <http://turismoloja.sbc/schema/data#ReinaDelCisne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#ReinaDelCisne> <http://dbpedia.org/ontology/location> "Av. Isidro Ayora Y  Av. Catamayo" .
 <http://turismoloja.sbc/schema/data#ReinaDelCisne> <http://schema.org/name> "Reina Del Cisne" .
-<http://turismoloja.sbc/schema/data#ReinaDelCisne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#ReinaDelCisne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#ChifaOriental> <http://dbpedia.org/ontology/location> "Av. Iberoamerica Y Azuay" .
 <http://turismoloja.sbc/schema/data#ChifaOriental> <http://schema.org/name> "Chifa Oriental" .
 <http://turismoloja.sbc/schema/data#ChifaOriental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1832,7 +1832,7 @@
 <http://turismoloja.sbc/schema/data#SinFin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Discotheque> .
 <http://turismoloja.sbc/schema/data#D´Rio> <http://dbpedia.org/ontology/location> "Sucre Y Bernardo Valdivieso" .
 <http://turismoloja.sbc/schema/data#D´Rio> <http://schema.org/name> "D´Rio" .
-<http://turismoloja.sbc/schema/data#D´Rio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#D´Rio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Colonial> <http://dbpedia.org/ontology/location> "Centro De Macara" .
 <http://turismoloja.sbc/schema/data#Colonial> <http://schema.org/name> "Colonial" .
 <http://turismoloja.sbc/schema/data#Colonial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1878,7 +1878,7 @@
 <http://turismoloja.sbc/schema/data#Cristy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#ReyDavid> <http://dbpedia.org/ontology/location> "18 De Noviembre Y Alamor" .
 <http://turismoloja.sbc/schema/data#ReyDavid> <http://schema.org/name> "Rey David" .
-<http://turismoloja.sbc/schema/data#ReyDavid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#ReyDavid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#LaFogata> <http://dbpedia.org/ontology/location> "18 De Noviembre E/ Colon E Imbabura" .
 <http://turismoloja.sbc/schema/data#LaFogata> <http://schema.org/name> "La Fogata" .
 <http://turismoloja.sbc/schema/data#LaFogata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1887,7 +1887,7 @@
 <http://turismoloja.sbc/schema/data#BeDisco-LoungeCafe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Discotheque> .
 <http://turismoloja.sbc/schema/data#SanCarlos> <http://dbpedia.org/ontology/location> "Bolivar Y Abdon Calderon" .
 <http://turismoloja.sbc/schema/data#SanCarlos> <http://schema.org/name> "San Carlos" .
-<http://turismoloja.sbc/schema/data#SanCarlos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#SanCarlos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PuraVida> <http://dbpedia.org/ontology/location> "Digo Vaca De Vega Y Sucre" .
 <http://turismoloja.sbc/schema/data#PuraVida> <http://schema.org/name> "Pura Vida" .
 <http://turismoloja.sbc/schema/data#PuraVida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1899,7 +1899,7 @@
 <http://turismoloja.sbc/schema/data#LojaContinental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Colina> <http://dbpedia.org/ontology/location> "José Joaquin De Olmedo Y Loja" .
 <http://turismoloja.sbc/schema/data#Colina> <http://schema.org/name> "Colina" .
-<http://turismoloja.sbc/schema/data#Colina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Colina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#ChessBurguer> <http://dbpedia.org/ontology/location> "Mercadillo 14-65 Y Sucre" .
 <http://turismoloja.sbc/schema/data#ChessBurguer> <http://schema.org/name> "Chess Burguer" .
 <http://turismoloja.sbc/schema/data#ChessBurguer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -1947,13 +1947,13 @@
 <http://turismoloja.sbc/schema/data#Artesanale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
 <http://turismoloja.sbc/schema/data#RunaWasi> <http://dbpedia.org/ontology/location> "Panamericana Km2 Via A Loja" .
 <http://turismoloja.sbc/schema/data#RunaWasi> <http://schema.org/name> "Runa Wasi" .
-<http://turismoloja.sbc/schema/data#RunaWasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#RunaWasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PaviChicken> <http://dbpedia.org/ontology/location> "Gran Colombia E/ Tena Y Cañar" .
 <http://turismoloja.sbc/schema/data#PaviChicken> <http://schema.org/name> "Pavi Chicken" .
 <http://turismoloja.sbc/schema/data#PaviChicken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#Amazonas> <http://dbpedia.org/ontology/location> "12 De Diciembre Y Gabriel García Moreno" .
 <http://turismoloja.sbc/schema/data#Amazonas> <http://schema.org/name> "Amazonas" .
-<http://turismoloja.sbc/schema/data#Amazonas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Amazonas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Geanellita´SFatsFood> <http://dbpedia.org/ontology/location> "Av. Juvenal Jaramillo 11-06 Y Av. Marista" .
 <http://turismoloja.sbc/schema/data#Geanellita´SFatsFood> <http://schema.org/name> "Geanellita´S Fats Food" .
 <http://turismoloja.sbc/schema/data#Geanellita´SFatsFood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CafeOrCoffeeShop> .
@@ -1971,13 +1971,13 @@
 <http://turismoloja.sbc/schema/data#SantaDiabla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
 <http://turismoloja.sbc/schema/data#AchikWasi> <http://dbpedia.org/ontology/location> "Intiñan (Sector La Luz)" .
 <http://turismoloja.sbc/schema/data#AchikWasi> <http://schema.org/name> "Achik Wasi" .
-<http://turismoloja.sbc/schema/data#AchikWasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#AchikWasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#PindosLos> <http://dbpedia.org/ontology/location> "Centro De Pindal" .
 <http://turismoloja.sbc/schema/data#PindosLos> <http://schema.org/name> "Pindos  Los" .
-<http://turismoloja.sbc/schema/data#PindosLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#PindosLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#LeRendezVous> <http://dbpedia.org/ontology/location> "Diego Vaca De Vega 06-43 Y La Paz" .
 <http://turismoloja.sbc/schema/data#LeRendezVous> <http://schema.org/name> "Le Rendez Vous" .
-<http://turismoloja.sbc/schema/data#LeRendezVous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#LeRendezVous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#DejaVú> <http://dbpedia.org/ontology/location> "Bernardo Valdivieso E/ 10 De Agosto Y José A. Eguiguren" .
 <http://turismoloja.sbc/schema/data#DejaVú> <http://schema.org/name> "Deja Vú" .
 <http://turismoloja.sbc/schema/data#DejaVú> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -1992,7 +1992,7 @@
 <http://turismoloja.sbc/schema/data#Lux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#VerdesTamarindos> <http://dbpedia.org/ontology/location> "Quito Y Av. Jaime Roldos" .
 <http://turismoloja.sbc/schema/data#VerdesTamarindos> <http://schema.org/name> "Verdes Tamarindos" .
-<http://turismoloja.sbc/schema/data#VerdesTamarindos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#VerdesTamarindos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#BermeoPlaza> <http://dbpedia.org/ontology/location> "Febres Cordero  01-02 Y Clotario Paz" .
 <http://turismoloja.sbc/schema/data#BermeoPlaza> <http://schema.org/name> "Bermeo Plaza" .
 <http://turismoloja.sbc/schema/data#BermeoPlaza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Hotel> .
@@ -2001,13 +2001,13 @@
 <http://turismoloja.sbc/schema/data#Mexibamba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#ArrozalesLos> <http://dbpedia.org/ontology/location> "10 De Agosto Y Amazonas" .
 <http://turismoloja.sbc/schema/data#ArrozalesLos> <http://schema.org/name> "Arrozales Los" .
-<http://turismoloja.sbc/schema/data#ArrozalesLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#ArrozalesLos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#Villonaco> <http://dbpedia.org/ontology/location> "Sucre 07-61 Y 10 De Agosto" .
 <http://turismoloja.sbc/schema/data#Villonaco> <http://schema.org/name> "Villonaco" .
 <http://turismoloja.sbc/schema/data#Villonaco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Hotel> .
 <http://turismoloja.sbc/schema/data#Pamplona> <http://dbpedia.org/ontology/location> "Eloy Alfaro Y Bolívia" .
 <http://turismoloja.sbc/schema/data#Pamplona> <http://schema.org/name> "Pamplona" .
-<http://turismoloja.sbc/schema/data#Pamplona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#Pamplona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#LatinPalace> <http://dbpedia.org/ontology/location> "Atahualpa Y Av. Panamericana" .
 <http://turismoloja.sbc/schema/data#LatinPalace> <http://schema.org/name> "Latin Palace" .
 <http://turismoloja.sbc/schema/data#LatinPalace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Bar> .
@@ -2016,7 +2016,7 @@
 <http://turismoloja.sbc/schema/data#BrasaLaSuc.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
 <http://turismoloja.sbc/schema/data#PalmerasLas> <http://dbpedia.org/ontology/location> "Sucre Y Las Palmeras " .
 <http://turismoloja.sbc/schema/data#PalmerasLas> <http://schema.org/name> "Palmeras Las" .
-<http://turismoloja.sbc/schema/data#PalmerasLas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://turismoloja.sbc/schema/data#PalmerasLas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://turismoloja.sbc/schema/data#AlasBielas> <http://dbpedia.org/ontology/location> "Av. Eduardo Kigman 17-145 Y Gonzanamá" .
 <http://turismoloja.sbc/schema/data#AlasBielas> <http://schema.org/name> "Alas Bielas" .
 <http://turismoloja.sbc/schema/data#AlasBielas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.disit.org/km4city/schema#Restaurant> .
@@ -7324,7 +7324,7 @@
 <http://schema.org/UserTweets> <http://schema.org/UserTweets#about> <http://idi.fundacionctic.org/cruzar/turismo#Recurso-comercial> .
 <http://schema.org/UserTweets> <http://schema.org/UserTweets#about> <http://idi.fundacionctic.org/cruzar/turismo#Recurso-hostelero> .
 <http://schema.org/UserTweets> <http://schema.org/UserTweets#about> <http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> .
-<http://idi.fundacionctic.org/cruzar/turismo#Recurso-hostelero> <http://turismoloja.sbc/schema/hasHostal> <http://idi.fundacionctic.org/cruzar/turismo#Hostel> .
+<http://idi.fundacionctic.org/cruzar/turismo#Recurso-hostelero> <http://turismoloja.sbc/schema/hasHostal> <http://idi.fundacionctic.org/cruzar/turismo#Hostal> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-hostelero> <http://turismoloja.sbc/schema/hasHotel> <http://idi.fundacionctic.org/cruzar/turismo#Hotel> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-hostelero> <http://turismoloja.sbc/schema/exists> <http://dbpedia.org/ontology/Canton> .
 
@@ -7333,9 +7333,9 @@
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-comercial> <http://turismoloja.sbc/schema/hasDiscotheque> <http://www.disit.org/km4city/schema#Discotheque> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-comercial> <http://turismoloja.sbc/schema/hasBar> <http://www.disit.org/km4city/schema#Bar> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-comercial> <http://dbpedia.org/ontology/locate> <http://dbpedia.org/ontology/Canton> .
-<http://idi.fundacionctic.org/cruzar/turismo#Restaurant> <http://dbpedia.org/ontology/label> "Restaurant" .
-<http://idi.fundacionctic.org/cruzar/turismo#Discotheque> <http://dbpedia.org/ontology/label> "Discotheque" .
-<http://idi.fundacionctic.org/cruzar/turismo#Bar> <http://dbpedia.org/ontology/label> "Bar" .
+<http://www.disit.org/km4city/schema#Restaurant> <http://dbpedia.org/ontology/label> "Restaurant" .
+<http://www.disit.org/km4city/schema#Discotheque> <http://dbpedia.org/ontology/label> "Discotheque" .
+<http://www.disit.org/km4city/schema#Bar> <http://dbpedia.org/ontology/label> "Bar" .
 <http://idi.fundacionctic.org/cruzar/turismo#Museo> <http://dbpedia.org/ontology/label> "Museo" .
 <http://idi.fundacionctic.org/cruzar/turismo#Hostal> <http://dbpedia.org/ontology/label> "Hostal" .
 <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> <http://dbpedia.org/ontology/label> "Edificio-historico" .
@@ -7347,7 +7347,7 @@
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> <http://turismoloja.sbc/schema/hasMuseum> <http://idi.fundacionctic.org/cruzar/turismo#Museo> .
 <http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> <http://dbpedia.org/ontology/locate> <http://dbpedia.org/ontology/Canton> .
 <http://dbpedia.org/ontology/Canton> <http://dbpedia.org/ontology/province> <http://dbpedia.org/ontology/Province> .
-<http://idi.fundacionctic.org/cruzar/turismo#CafeOrCofeeShop> <http://dbpedia.org/ontology/label> "CafeOrCofeeShop" .
+<http://schema.org/CafeOrCoffeeShop> <http://dbpedia.org/ontology/label> "CafeOrCoffeeShop" .
 <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> <http://dbpedia.org/ontology/label> "Entorno-natural" .
 <http://schema.org/UserTweets> <http://schema.org/UserTweets#about> <http://idi.fundacionctic.org/cruzar/turismo#Event> .
 <http://schema.org/UserTweets> <http://schema.org/UserTweets#about> <http://idi.fundacionctic.org/cruzar/turismo#Recurso-comercial> .

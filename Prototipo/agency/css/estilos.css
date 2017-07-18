@@ -16,6 +16,12 @@
     width: 100%;
     text-align: center;
   }
+  section#bloqueind, section#bloque2{
+    padding: 100px 20px 0px 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
   nav#izq{
     float:left;
     width: 20%;
@@ -27,14 +33,37 @@
    padding: 0px;
    margin: 0px;
   }
-  div#tabla1{
-    display: inline-block;
-    width:50%;
-    height: 80%;
-
+  aside#infos2{
+    width: 70%;
+    text-align: center;
+    display:inline-table;
+  }
+  div#uno{
+    width: 40%;
+    float: left;
+  }
+  div#grafica{
+    width: 50%;
+    float: right;
   }
 
+  div#tabla1{
+    display: inline-block;
+    width:45%;
+  }
 
+  div#query{
+      float: right;
+      width: 40%;
+      padding-top: 100px;
+
+  }
+  div#result{
+    float: left;
+    width: 55%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
   body,html{
 height: 100%;
   }

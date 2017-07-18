@@ -2,34 +2,29 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-     <meta charset="utf-8"><meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Turismo</title>
 
-    <title>Turismo</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/estilos.css" rel="stylesheet">
+      <script src="../release/go.js"></script>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
-    <![endif]-->
+  <!-- Theme CSS -->
+  <link href="css/agency.min.css" rel="stylesheet">
 
 </head>
     <style>
@@ -59,58 +54,62 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                
+
                 <a class="navbar-brand page-scroll" href="#page-top">System recommender - Loja Tourism</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-           <div >
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="lugar.php">Buscar Lugar - Actividad</a>
-                    </li>
+            <div style="text-align:right;" >
+                <ul class="nav navbar-nav navbar-left" >
+
                     <li>
                         <a class="page-scroll" href="momento.php">Lo del Momento</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Ellos recomiendan</a>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recursos<b class="caret"></b></a>
+                        <ul class="dropdown-menu" style="background-color:#2e2e2e">
+                          <li class="active"><a href="recursoHotelero.php">Recurso Hotelero</a></li>
+                          <li ><a href="recursoComercial.php">Recurso Comercial</a></li>
+                          <li ><a href="recursoTuristico.php">Recurso Turístico</a></li>
+                         </ul>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="mapnoche.php">Te puede interesar</a>
-                    </li>
-                    <li>
-                       <form action="bus.php" method="POST">
-<input type="text" id="keywords" name="keywords" size="15" maxlength="15" minlength="4">
-<input type="submit" name="search" id="search" value="Buscar">
-</form>
-                    </li>
+
                     <li>
                         <a class="page-scroll" href="sparql.php">Sparql</a>
                     </li>
+
+                </ul>
+                <ul >
+                  <div id=cajon class="col-lg-3">
+                    <form action="bus.php" method="POST">
+                      <div  class="input-group">
+                        <span class="input-group-btn">
+                          <button  type="submit" name="search" id="search" class="btn btn-default" type="button" >Buscar</button>
+                        </span>
+                        <input type="text" class="form-control" id="keywords" name="keywords" size="15" maxlength="30"  minlength="4" placeholder="Search for...">
+                      </div><!-- /input-group -->
+                      </form>
+                      </div><!-- /.row -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <br><br><br><br><br><br><br><br><br>
 
-
+    <section id="bloqueind">
+    <h3 style="text-align:center">Resultados de la búsqueda</h3>
 <?php
 //Si se ha pulsado el botón de buscar
 if (isset($_POST['search'])) {
     //Recogemos las claves enviadas
     $keywords = $_POST['keywords'];
-   
+
 }
 ?>
 
 <?php
-mb_internal_encoding('UTF-8');
-mb_http_output('UTF-8');
+
 require_once( "sparqllib.php" );
 
 $db = sparql_connect( "http://localhost:8890/sparql" );
@@ -122,10 +121,12 @@ sparql_ns( "foaf","http://xmlns.com/foaf/0.1/" );
 
 $sparql = "select ?recurso ?descripcion where {?recurso ?b ?descripcion .FILTER regex(?descripcion , '$keywords')}limit 1000";
 
-$result = sparql_query( $sparql ); 
+$result = sparql_query( $sparql );
 $fields = sparql_field_array( $result );
 
-print "<h4>Number of rows: ".sparql_num_rows( $result )." results.</h4>";
+print "<div id='resul' class='alert alert-success' role='alert'>";
+print "<a href='' class='alert-link'>Se han encontrado ".sparql_num_rows( $result )." resultados con la palabra ".$keywords."</a>";
+print "</div>";
 print "<table id='tabla' border=1>";
 print "<tr>";
 foreach( $fields as $field )
@@ -138,11 +139,22 @@ while( $row = sparql_fetch_array( $result ) )
     print "<tr>";
     foreach( $fields as $field )
     {
-         echo utf8_decode("<td>".$row[$field]."</td>");
-        
+
+      echo utf8_decode("<td>.$row[$field].</td>");
+
+
     }
     print "</tr>";
 }
 print "</table>";
 
 ?>
+</section>
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/agency.min.js"></script>
